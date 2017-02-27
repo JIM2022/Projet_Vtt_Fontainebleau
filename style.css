@@ -2,9 +2,50 @@
 {
 	height: 350px;
 	width: 400px;
+	margin-top: -50px;
 }
 
 #head
 {
 	margin-top: -100px;
+}
+
+p
+{
+	font-family: Josefin Sans;
+}
+
+body
+{
+	background-image: url(img/VTT-2.jpg);
+	background-attachment: cover;
+	background-repeat: no-repeat;
+}
+
+#c_navbar li 
+{
+	list-style: none;
+	display: inline;
+	padding: 10px;
+	margin: 0;
+	text-align:center;
+}
+
+#c_navbar ul
+{
+	border: 5px solid #99de68;
+	border-radius: 5px;
+	padding: 20px;
+	text-align: center;
+	background-color: white;
+}
+
+#head
+{
+	border: 5px solid #99de68;
+	border-radius: 5px;
+	margin-top: -80px;
+	padding: 5px;
+	background-color: white;
+	font-size: 16px;
 }
