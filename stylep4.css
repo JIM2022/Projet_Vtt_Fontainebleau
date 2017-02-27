@@ -1,0 +1,59 @@
+
+body {
+
+	font-size: 2em;
+	font-family: Josefin Sans;
+	color: #68b2dd;
+
+}
+
+a {
+	color: #68b2dd;
+}
+
+#c_navbar li {
+
+	list-style: none;
+	display: inline;
+	padding: 10px;
+	margin: 0;
+	text-align:center;
+
+
+}
+
+#c_navbar ul{
+
+	border: 5px solid #99de68;
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 130px;
+	text-align: center;
+
+}
+
+#c_logo {
+
+	
+
+}
+
+#c_météo {
+
+	margin-top: 30px;
+}
+
+#c_tarif-container {
+
+	border: 2px solid black;
+	border: 5px solid #99de68;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+#c_infoloc {
+
+	text-align: justify;
+	margin-top: 20px;
+}
+
