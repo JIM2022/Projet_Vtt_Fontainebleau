@@ -4,11 +4,19 @@ body {
 	font-size: 2em;
 	font-family: Josefin Sans;
 	color: #68b2dd;
+	background: url(img/backgroundpage4.jpg) no-repeat center center fixed;
+	background-size: cover;
+
 
 }
 
 a {
 	color: #68b2dd;
+}
+
+#c_navbar {
+
+	background: rgba(0, 0, 0, 0.8);
 }
 
 #c_navbar li {
@@ -49,6 +57,7 @@ a {
 	border: 5px solid #99de68;
 	border-radius: 5px;
 	padding: 20px;
+	background: rgba(0, 0, 0, 0.8);
 }
 
 #c_infoloc {
@@ -57,3 +66,12 @@ a {
 	margin-top: 20px;
 }
 
+ul {
+
+	list-style-type: none;
+}
+
+h3 {
+
+	Font-Weight: Bold;
+}
