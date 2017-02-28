@@ -72,15 +72,8 @@
 				<div class="col-xs-2">CLUB FACEBOOK RANDO VTT<a href="https://www.facebook.com/VttFontainebleau/?fref=ts" target="_blank"><img  src="img/randovtt.jpg" div="c_img1" class="img-responsive" alt="randovtt"></a></div>
 				<div class="col-xs-2">CLUB FACEBOOK RANDO VTT<a href="https://www.facebook.com/VttFontainebleau/?fref=ts" target="_blank"><img  src="img/randovtt.jpg" div="c_img1" class="img-responsive" alt="randovtt"></a></div>
 				<div class="col-xs-2">CLUB FACEBOOK RANDO VTT<a href="https://www.facebook.com/VttFontainebleau/?fref=ts" target="_blank"><img  src="img/randovtt.jpg" div="c_img1" class="img-responsive" alt="randovtt"></a></div>
-				<div id="c_formualire" class="col-xs-6">FORMULAIRE DE CONTACT :<br/><br/><textarea placeholder="Envoyez votre question içi..." style="width:100%" rows="5"></textarea><br/><input type="submit" value="Envoyer" /></li>
-
-
-				
-				
-
-
-				
-			</ul>
+				<div id="c_formualire" class="col-xs-6">FORMULAIRE DE CONTACT :<br/><br/><textarea placeholder="Envoyez votre question içi..." style="width:100%" rows="5"></textarea><br/><input type="submit" value="Envoyer" /></div>		
+			</div>
 		</div>
 
 

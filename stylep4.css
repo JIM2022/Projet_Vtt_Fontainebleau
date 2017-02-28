@@ -53,11 +53,12 @@ a {
 
 #c_tarif-container {
 
-	border: 5px solid #99de68;
+	border: 5px solid black;
 	border-radius: 5px;
 	padding: 20px;
-	background: rgba(0, 0, 0, 0.8);
-	margin-bottom: 30px;
+	background: rgba(175, 255, 199, 0.7);
+	margin-bottom: 70px;
+	color: black;
 }
 
 #c_infoloc {
