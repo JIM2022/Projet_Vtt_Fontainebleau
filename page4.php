@@ -14,6 +14,7 @@
 </head>
 
 <body>
+
 	<header class="row">
 
 		<div class="col-xs-3">
@@ -30,7 +31,7 @@
 			</div>
 		</div>
 		<div id="c_météo" class="col-xs-offset-1 col-xs-3">
-			<div id="cont_NzcxODZ8NXwyfDR8MXxGRkZGRkZ8MXxGRkZGRkZ8Y3wx"><div id="spa_NzcxODZ8NXwyfDR8MXxGRkZGRkZ8MXxGRkZGRkZ8Y3wx"><a id="a_NzcxODZ8NXwyfDR8MXxGRkZGRkZ8MXxGRkZGRkZ8Y3wx" href="http://www.meteocity.com/france/fontainebleau_v77186/" target="_blank" style="color:#333;text-decoration:none;">Météo Fontainebleau</a> ©<a href="http://www.meteocity.com">meteocity.com</a></div><script type="text/javascript" src="http://widget.meteocity.com/js/NzcxODZ8NXwyfDR8MXxGRkZGRkZ8MXxGRkZGRkZ8Y3wx"></script></div>
+			<script charset='UTF-8' src='http://www.meteofrance.com/mf3-rpc-portlet/rest/vignettepartenaire/771860/type/VILLE_FRANCE/size/PAYSAGE_VIGNETTE' type='text/javascript'></script>
 		</div>
 	</header>
 
@@ -69,13 +70,13 @@
 		
 		<div id="c_liencontainer" class="col-xs-offset-1 col-xs-10">
 			<div id="c_lien" class="row">
-				<div class="col-xs-2">CLUB FACEBOOK RANDO VTT<a href="https://www.facebook.com/VttFontainebleau/?fref=ts" target="_blank"><img  src="img/randovtt.jpg" div="c_img1" class="img-responsive" alt="randovtt"></a></div>
-				<div class="col-xs-2">CLUB FACEBOOK RANDO VTT<a href="https://www.facebook.com/VttFontainebleau/?fref=ts" target="_blank"><img  src="img/randovtt.jpg" div="c_img1" class="img-responsive" alt="randovtt"></a></div>
-				<div class="col-xs-2">CLUB FACEBOOK RANDO VTT<a href="https://www.facebook.com/VttFontainebleau/?fref=ts" target="_blank"><img  src="img/randovtt.jpg" div="c_img1" class="img-responsive" alt="randovtt"></a></div>
-				<div id="c_formualire" class="col-xs-6">FORMULAIRE DE CONTACT :<br/><br/><textarea placeholder="Envoyez votre question içi..." style="width:100%" rows="5"></textarea><br/><input type="submit" value="Envoyer" /></div>		
+				<div class="col-xs-2">CLUB FACEBOOK RANDO VTT<a href="https://www.facebook.com/VttFontainebleau/?fref=ts" target="_blank"><img  src="img/logofb.png" div="c_img1" class="img-responsive" alt="randovtt"></a></div>
+				<div class="col-xs-2">VILLE DE FONTAINEBLEAU<a href="http://www.fontainebleau.fr/" target="_blank"><img  src="img/villedebleau.jpg" div="c_img2" class="img-responsive" alt="villedebleau"></a></div>
+				<div class="col-xs-2">FÉDÉRATION FRANÇAISE DE VTT<a href="http://www.ffc.fr/discipline/vtt/" target="_blank"><img  src="img/ffv.png" div="c_img3" class="img-responsive" alt="villedebleau"></a></div>
+				<div class="col-xs-2">MONITEUR VTT FONTAINEBLEAU<a href="http://www.moniteurcycliste.com/77-seine-et-marne/ecole-mcf-du-massif-de-fontainebleau" target="_blank"><img  src="img/mcf.png" div="c_img4" class="img-responsive" alt="villedebleau"></a></div>
+				<div id="c_formualire" class="col-xs-4">FORMULAIRE DE CONTACT :<br/><br/><textarea placeholder="Envoyez votre question içi..." style="width:100%" rows="5"></textarea><br/><input type="submit" value="Envoyer" /></div>		
 			</div>
 		</div>
-
 
 	</footer>
 	

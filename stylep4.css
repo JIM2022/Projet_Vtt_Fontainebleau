@@ -40,25 +40,21 @@ a {
 
 }
 
-#c_logo {
-
-	
-
-}
-
 #c_météo {
 
-	margin-top: 30px;
+	margin-top: 90px;
 }
+
+
 
 #c_tarif-container {
 
-	border: 5px solid black;
+	border: 5px solid #99de68;
 	border-radius: 5px;
+	background: rgba(0, 0, 0, 0.8);
 	padding: 20px;
-	background: rgba(175, 255, 199, 0.7);
 	margin-bottom: 70px;
-	color: black;
+	color: #68b2dd;
 }
 
 #c_infoloc {
@@ -85,15 +81,16 @@ h3 {
 }
 
 
-#c_liencontainer li {
-
-	margin: 10px;
-	text-align: center;
-
-}
 
 #c_lien {
 
 	text-align: center;
 	margin: 10px;
+}
+
+
+#c_img3 {
+
+	margin-top: 50px;
+
 }
