@@ -53,11 +53,11 @@ a {
 
 #c_tarif-container {
 
-	border: 2px solid black;
 	border: 5px solid #99de68;
 	border-radius: 5px;
 	padding: 20px;
 	background: rgba(0, 0, 0, 0.8);
+	margin-bottom: 30px;
 }
 
 #c_infoloc {
@@ -74,4 +74,25 @@ ul {
 h3 {
 
 	Font-Weight: Bold;
+}
+
+#c_liencontainer {
+
+	border: 5px solid #99de68;
+	border-radius: 5px;
+	background: rgba(0, 0, 0, 0.8);
+}
+
+
+#c_liencontainer li {
+
+	margin: 10px;
+	text-align: center;
+
+}
+
+#c_lien {
+
+	text-align: center;
+	margin: 10px;
 }
