@@ -94,3 +94,78 @@ h3 {
 	margin-top: 50px;
 
 }
+
+#c_copyright {
+
+	padding: 30px;
+}
+#c_copyright p {
+
+	text-align: center;
+	color : black;
+}
+
+input {
+
+	color: black;
+}
+
+#c_mobile {
+
+	display: none;
+}
+
+#c_tarif_mobile {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+	#c_desktop  {
+
+		display: none;
+	}
+
+	#c_tarif {
+
+		display: none;
+	}
+
+	#c_liencontainer {
+
+		display: none;
+	}
+
+
+	#c_mobile {
+
+		display: block;
+	}
+
+	
+	#c_météo_mobile {
+
+		text-align: center;
+
+	}
+
+
+	#c_tarif_mobile {
+		
+		display: block;
+		border: 5px solid #99de68;
+		border-radius: 5px;
+		background: rgba(0, 0, 0, 0.8);
+		margin : 10px;
+	}
+	
+	#c_tarif_mobile p {
+
+		font-size: 0.7em;
+	}
+
+	
+
+
+    
+}
