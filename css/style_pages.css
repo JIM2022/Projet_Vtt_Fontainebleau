@@ -1,4 +1,113 @@
 .box{
-    display: flex;
+    background-color: rgba(0, 0, 0, 0.8); 
+    border: 5px solid #99de68;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+} 
+
+
+@media screen and (min-width: 1900px) {
+
+    .box{
+        background-color: #1400ff;
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .container {
+
+        width: 1170px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 970px;
+    }
+    .row{
+        margin-left: 20px;
+        margin-left: 20px;
+    }
+    .box{
+        background-color: #b100ff;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 750px;
+    }
+    .row{
+        margin-left: 20px;
+        margin-left: 20px;
+    }
+    .box{
+        background-color: aqua;
+    }
+}
+
+
+#c_navbar li {
+list-style: none;
+display: inline;
+padding: 10px;
+margin: 0;
+text-align:center;
+}
+#c_navbar ul{
+
+background-color: rgba(0, 0, 0, 0.7);
+border: 5px solid #99de68;
+border-radius: 5px;
+padding: 20px;
+margin-top: 130px;
+text-align: center;
+margin-left: -10px;
+margin-right: -10px;
+}
+
+marquee{
     
+   /* border: 5px solid #99de68;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 74%;
+    height: 40px;
+    margin-left: 118px;*/
+}
+
+#page_randos{
+    background-image: url(/img/wall_test.jpg); 
+    background-size: cover;
+
+
+}
+#page_balades{
+    background:url(/img/wall_famille.jpeg);
+    background-size: cover;
+}
+
+.img{    
+    margin-top: 20px;
+    margin-left: 20px;
+    opacity: inherit;    
+}
+h1{
+    display: inline-block;
+    width: 90%;
+    text-align: justify;
+}
+
+h4{
+    text-align: left;       
+}
+
+
+
+p, td{
+    color:rgba(255, 255, 255, 0.98);
 }
