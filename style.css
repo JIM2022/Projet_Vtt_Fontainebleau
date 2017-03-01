@@ -7,15 +7,16 @@
 
 #head
 {
-	margin-top: -100px;
+	margin-top: -11%;
 }
 
 body
 {
 	background-image: url(img/VTT-2.jpg);
-	background-attachment: cover;
+	background-size: cover;
 	background-repeat: no-repeat;
-	font-size: 18px;
+	background-attachment: fixed;
+	font-size: 22px;
 	font-family: Josefin Sans;
 }
 
@@ -32,13 +33,15 @@ footer
 	background-color: black;
 	color: white;
 	opacity: 0.7;
-	font-size: 20px;
-	width: 250px;
-	height: 650px;
+	font-size: 22px;
+	width: 14.5%;
+	padding: 5px;
+	height: 80%;
 	position: absolute;
-	top: 100px;
-	left: 1550px;
+	top: 10%;
+	left: 80%;
 	text-align: center;
+	overflow: auto;
 }
 
 form
@@ -59,7 +62,7 @@ textarea
 h3
 {
 	text-decoration: underline;
-	font-size: 20px;
+	font-size: 22px;
 }
 
 #c_navbar li
@@ -122,16 +125,22 @@ h3
 	margin-top: -250px;
 	overflow: scroll;
 	height: 250px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 #s_place2
 {
 	height: 250px;
+	overflow: scroll;
+	padding-left: 15px;
 }
 
 #s_place3
 {
 	height: 250px;
+	overflow: scroll;
+	padding-left: 15px;
 }
 
 #news
@@ -156,8 +165,38 @@ iframe
 
 .email, #question
 {
-	width: 220px;
+	width: 80%;
 }
 
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 768px)
+{
+	#logo
+	{
+		position: absolute;
+		top: 0;
+		left: 110px;
+	}
 
+	#head
+	{
+		position: absolute;
+		top: 300px;
+		left: 150px;
+		width: 300px;
+	}
+
+	#c_navbar
+	{
+		position: absolute;
+		top: 370px;
+		left: 100px;
+		width: 400px;
+	}
+
+	.meteo, iframe
+	{
+		display: none;
+	}
+
+
+}
