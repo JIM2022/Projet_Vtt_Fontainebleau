@@ -1,0 +1,260 @@
+#logo
+{
+	height: 350px;
+	width: 400px;
+	margin-top: -50px;
+}
+
+#head
+{
+	margin-top: -11%;
+}
+
+body
+{
+	background-image: url(img/VTT-2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-size: 22px;
+	font-family: Josefin Sans;
+}
+
+a 
+{
+
+	color: white;
+}
+
+footer
+{
+	border: 5px solid #99de68;
+	border-radius: 5px;
+	background-color: black;
+	color: white;
+	opacity: 0.7;
+	font-size: 22px;
+	width: 14.5%;
+	padding: 5px;
+	height: 80%;
+	position: absolute;
+	top: 10%;
+	left: 80%;
+	text-align: center;
+	overflow: auto;
+}
+
+form
+{
+	color: black;
+}
+
+input
+{
+	margin: 10px;
+}
+
+textarea
+{
+	margin: 10px;
+}
+
+h3
+{
+	text-decoration: underline;
+	font-size: 22px;
+}
+
+#c_navbar li
+{
+	list-style: none;
+	display: inline;
+	padding: 8px;
+	margin-top: 50px;
+	text-align:center;
+}
+
+#c_navbar 
+{
+	border: 5px solid #99de68;
+	border-radius: 5px;
+	padding: 15px;
+	text-align: center;
+	background-color: black;
+	opacity: 0.7;
+}
+
+#c_navbar_2
+{
+	display: none;
+}
+
+#head
+{
+	border: 5px solid #99de68;
+	border-radius: 5px;
+	margin-top: -80px;
+	margin-left: 15px;
+	margin-right: -5px;
+	padding: 10px;
+	background-color: black;
+	color: white;
+	opacity: 0.7;
+	font-size: 20px;
+}
+
+.container_custom
+
+{
+	height: 100vh;
+	width: 100%;
+	padding-right: 0;
+	padding-left: 20;
+
+}
+
+.s_onglet
+{
+	border: 5px solid #99de68;
+	border-radius: 5px;
+	color: white;
+	opacity: 0.8;
+	background-color: black;
+	margin-top: 15px;
+	width: 30%;
+	position: absolute;
+	top: 37%;
+	left: 40%;
+}
+
+#s_place1
+{
+	margin-top: -250px;
+	overflow: scroll;
+	height: 250px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#s_place2
+{
+	height: 250px;
+	overflow: scroll;
+	padding-left: 15px;
+}
+
+#s_place3
+{
+	height: 250px;
+	overflow: scroll;
+	padding-left: 15px;
+	margin-top: 275px;
+}
+
+#news
+{
+	color: white;
+	font-size: 16px;
+}
+
+.meteo
+{
+	position: absolute;
+	top: 0px;
+	left: -250px;
+}
+
+iframe
+{
+	position: absolute;
+	top: 445px;
+	left: 280px;
+}
+
+.email, #question
+{
+	width: 80%;
+}
+
+@media screen and (max-width: 992px)
+{
+	body
+	{
+		
+	}
+
+	.meteo, iframe
+	{
+		display: none;
+	}
+
+	#head
+	{
+		width: 325px;
+	}
+
+	#c_navbar
+	{
+		position: absolute;
+		top: -400px;
+		left: 90%;
+		width: 200%;
+		height: 50px;
+		padding: 5px;
+	}
+
+
+}
+
+@media screen and (max-width: 768px)
+{
+	#logo
+	{
+		position: absolute;
+		top: 0;
+		left: 110px;
+	}
+
+	#head
+	{
+		position: absolute;
+		top: 300px;
+		left: 170px;
+		width: 300px;
+	}
+
+	#c_navbar
+	{
+		position: absolute;
+		top: 370px;
+		left: 50px;
+		width: 550px;
+	}
+
+	.meteo, iframe
+	{
+		display: none;
+	}
+
+	.s_onglet
+	{
+		width: 30%;
+		position: absolute;
+		top: 800px;
+		left: 8%;
+		width: 50%;
+	}
+
+	footer
+	{
+		width: 30%;
+		position: absolute;
+		top: 550px;
+		left: 62%;
+		text-align: center;
+		overflow: auto;
+	}
+
+
+
+}
