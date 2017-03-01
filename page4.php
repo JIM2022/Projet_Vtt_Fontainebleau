@@ -36,7 +36,7 @@
 		</div>
 <!-- Mobile version -->
 		<div id="c_mobile">
-			<img src="img/VTT.png" id="c_logo" alt="logo" class=img-responsive>
+			<img src="img/VTT.png" id="c_logomobile" alt="logo" class=img-responsive>
 			<div id="c_météo_mobile">
 				<script  charset='UTF-8' src='http://www.meteofrance.com/mf3-rpc-portlet/rest/vignettepartenaire/771860/type/VILLE_FRANCE/size/PAYSAGE_VIGNETTE' type='text/javascript'>
 				</script>
@@ -45,7 +45,6 @@
 	</header>
 <!-- Bureau version -->
 	<section id="c_tarif" class="row">
-
 		<div id="c_tarif-container" class="col-xs-offset-3 col-xs-6">
 			<div id="c_vélo" class="col-xs-6">
 				<ul>
@@ -75,8 +74,7 @@
 		</div>
 	</section>
 <!-- Mobile version -->
-
-	<section id="c_tarif_mobile"">
+	<section id="c_tarif_mobile">
 		<div>	
 			<ul>
 				<li><h3>Tarif vélo :</h3></li>
@@ -104,7 +102,7 @@
 		</div>	
 	</section>
 <!-- Bureau version -->
-	<footer>
+	<footer id="footer_desktop">
 		<div class="row">			
 			<div id="c_liencontainer" class="col-xs-offset-1 col-xs-10">
 				<div id="c_lien" class="row">
@@ -115,13 +113,16 @@
 					<div id="c_formualire" class="col-xs-4">FORMULAIRE DE CONTACT :<br/><br/><textarea placeholder="Envoyez votre question içi..." style="width:100%" rows="5"></textarea><br/><input type="submit" value="Envoyer" /></div>		
 				</div>
 			</div>
-		</div>
+		</div>	
 		<div class="row">
 			<div id="c_copyright" class="col-xs-offset-1 col-xs-10">
-				<p>Copyright © WCS Fontainebleau</p>
+				<p>&copy;WCS Fontainebleau</p>
 			</div>
 		</div>
 	</footer>
-		
+<!-- Mobile version -->
+	<footer id="c_footer_mobile">
+		<h1><strong>TEST2</strong></h1>
+	</footer>
 </body>
 </html>

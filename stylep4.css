@@ -14,6 +14,7 @@ a {
 	color: #68b2dd;
 }
 
+
 #c_navbar {
 
 	background: rgba(0, 0, 0, 0.8);
@@ -115,10 +116,10 @@ input {
 	display: none;
 }
 
-#c_tarif_mobile {
-	display: none;
-}
 
+
+
+/*Mobile version*/
 @media screen and (max-width: 768px) {
 
 	#c_desktop  {
@@ -131,7 +132,7 @@ input {
 		display: none;
 	}
 
-	#c_liencontainer {
+	#footer_desktop {
 
 		display: none;
 	}
@@ -141,14 +142,11 @@ input {
 
 		display: block;
 	}
-
 	
 	#c_météo_mobile {
 
 		text-align: center;
-
 	}
-
 
 	#c_tarif_mobile {
 		
@@ -162,10 +160,13 @@ input {
 	#c_tarif_mobile p {
 
 		font-size: 0.7em;
+		text-align: justify;
+		margin: 10px;
 	}
 
-	
+	#c_lienmobile {
 
-
+		display: block;
+	}
     
 }
