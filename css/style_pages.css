@@ -81,13 +81,13 @@ marquee{
 }
 
 #page_randos{
-    background-image: url(/img/wall_test.jpg); 
+    background: url(../img/wall_test.jpg); 
     background-size: cover;
 
 
 }
 #page_balades{
-    background:url(/img/wall_famille.jpeg);
+    background:url(../img/wall_famille.jpeg);
     background-size: cover;
 }
 
