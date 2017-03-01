@@ -111,16 +111,27 @@ input {
 	color: black;
 }
 
+textarea {
+
+	border-radius: 5px;
+}
+
 #c_mobile {
 
+	display: none;
+}
+#c_tarif_mobile {
+	display: none;
+}
+#c_footer_mobile {
 	display: none;
 }
 
 
 
-
 /*Mobile version*/
 @media screen and (max-width: 768px) {
+
 
 	#c_desktop  {
 
@@ -164,9 +175,107 @@ input {
 		margin: 10px;
 	}
 
-	#c_lienmobile {
+	#c_footer_mobile {
+
+		display: block;
+		border: 5px solid #99de68;
+		border-radius: 5px;
+		background: rgba(0, 0, 0, 0.8);
+		margin : 10px;
+
+	}
+
+	#c_footer_mobile h4 {
+		text-align: center;
+		font-size: 0.8em;
+		margin: 10px;
+	}
+	
+	#c_formualire h4 {
+		text-decoration: underline;
+	}
+
+	#c_formualire {
+		margin-left: auto;
+		margin-right: auto;
+		width: 300px;
+	}
+
+	input {
+		margin-bottom: 30px;
+	}
+}
+
+/*Tablette portrait*/
+@media screen and (max-width: 992px) {
+
+	#c_logomobile {
+
+		margin-right: auto;
+		margin-left: auto;
+		width : 700px;
+	}
+ 	
+ 	#c_desktop  {
+
+		display: none;
+	}
+
+	#c_tarif {
+
+		display: none;
+	}
+
+	#footer_desktop {
+
+		display: none;
+	}
+
+
+	#c_mobile {
 
 		display: block;
 	}
-    
-}
+	
+	#c_météo_mobile {
+
+		text-align: center;
+	}
+
+	#c_tarif_mobile {
+		
+		display: block;
+		border: 5px solid #99de68;
+		border-radius: 5px;
+		background: rgba(0, 0, 0, 0.8);
+		margin : 10px;
+	}
+	
+	#c_tarif_mobile p {
+
+		font-size: 0.7em;
+		text-align: justify;
+		margin: 10px;
+	}
+
+	#c_footer_mobile {
+
+		display: block;
+		border: 5px solid #99de68;
+		border-radius: 5px;
+		background: rgba(0, 0, 0, 0.8);
+		margin : 10px;
+
+	}
+
+	#c_footer_mobile h4 {
+		text-align: center;
+		font-size: 0.8em;
+		margin: 10px;
+	}
+	
+	#c_formualire h4 {
+		text-decoration: underline;
+	}
+}	
+

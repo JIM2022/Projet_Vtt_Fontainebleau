@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 	<meta charset="UTF-8">
 	<title>Location de vélo</title>
@@ -30,7 +30,7 @@
 					</ul>
 				</div>
 			</div>
-			<div id="c_météo" class="col-xs-offset-1 col-xs-3">
+			<div id="c_météo" class="col-xs-offset-1 col-xs-3 col-md-offset-4 col-md-3 col-lg-offset-1 col-lg-3">
 				<script charset='UTF-8' src='http://www.meteofrance.com/mf3-rpc-portlet/rest/vignettepartenaire/771860/type/VILLE_FRANCE/size/PAYSAGE_VIGNETTE' type='text/javascript'></script>
 			</div>
 		</div>
@@ -75,24 +75,26 @@
 	</section>
 <!-- Mobile version -->
 	<section id="c_tarif_mobile">
-		<div>	
-			<ul>
-				<li><h3>Tarif vélo :</h3></li>
-				<li>8€ l'heure / vélo</li>
-				<li>15€ la journée / vélo</li>
-				<li>55€ la journée / vélo</li>
-				<li>100€ les 2 semaines / vélo</li>
-				<li>130€ le mois / vélo</li>
-			</ul>
-		</div>
-		<div>
-			<ul>
-				<li><h3>Tarif accessoires :</h3></li>
-				<li>Casque : 3€</li>
-				<li>Lot de 2 gourdes : 4€</li>
-				<li>Porte bébé : 5€</li>
-				<li>Plan du site et des différents parcours : 8€</li>
-			</ul>
+		<div class="row">
+			<div class="col-sm-6">	
+				<ul>
+					<li><h3>Tarif vélo :</h3></li>
+					<li>8€ l'heure / vélo</li>
+					<li>15€ la journée / vélo</li>
+					<li>55€ la journée / vélo</li>
+					<li>100€ les 2 semaines / vélo</li>
+					<li>130€ le mois / vélo</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<ul>
+					<li><h3>Tarif accessoires :</h3></li>
+					<li>Casque : 3€</li>
+					<li>Lot de 2 gourdes : 4€</li>
+					<li>Porte bébé : 5€</li>
+					<li>Plan du site et des différents parcours : 8€</li>
+				</ul>
+			</div>
 		</div>
 		<div>			
 			<p>Chaque location, quelqu'en soit la durée, fera l'objet d'un cautionnement soit par le dépôt d'un passeport, d'une CNI ou permis de conduire, restitué à la fin de la location ; soit par le dépôt d'une carte bancaire de caution de 200 euros, restitué à la fin de la location.<br/><br/>
@@ -121,8 +123,21 @@
 		</div>
 	</footer>
 <!-- Mobile version -->
-	<footer id="c_footer_mobile">
-		<h1><strong>TEST2</strong></h1>
+	<footer>
+		<div id="c_footer_mobile">
+			<div><a href="https://www.facebook.com/VttFontainebleau/?fref=ts" target="_blank"><h4>FACEBOOK RANDO VTT</h4></a></div>
+			<div><a href="http://www.fontainebleau.fr/" target="_blank"><h4>VILLE DE FONTAINEBLEAU</h4></a></div>
+			<div><a href="http://www.ffc.fr/discipline/vtt/" target="_blank"><h4>FÉDÉRATION FRANÇAISE DE VTT</h4></a></div>
+			<div><a href="http://www.moniteurcycliste.com/77-seine-et-marne/ecole-mcf-du-massif-de-fontainebleau" target="_blank"><h4>MONITEUR VTT FONTAINEBLEAU</h4></a></div><br/><br/>
+			<div id="c_formualire"><h4>FORMULAIRE DE CONTACT :</h4><textarea placeholder="Envoyez votre question içi..." style="width:100%" rows="5"></textarea><br/></div>
+			<div class="row">
+			<input class="col-xs-offset-4 col-xs-4" id="boutonm" type="submit" value="Envoyer" /></div>
+		</div>
+		<div class="row">
+			<div id="c_copyright" class="col-xs-offset-1 col-xs-10">
+				<p>&copy;WCS Fontainebleau</p>
+			</div>
+		</div>	
 	</footer>
 </body>
 </html>
