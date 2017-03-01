@@ -74,7 +74,7 @@ h3
 	text-align:center;
 }
 
-#c_navbar ul
+#c_navbar 
 {
 	border: 5px solid #99de68;
 	border-radius: 5px;
@@ -82,6 +82,11 @@ h3
 	text-align: center;
 	background-color: black;
 	opacity: 0.7;
+}
+
+#c_navbar_2
+{
+	display: none;
 }
 
 #head
@@ -116,8 +121,10 @@ h3
 	opacity: 0.8;
 	background-color: black;
 	margin-top: 15px;
-	margin-left: 800px;
-	margin-right: 500px;
+	width: 30%;
+	position: absolute;
+	top: 37%;
+	left: 40%;
 }
 
 #s_place1
@@ -141,6 +148,7 @@ h3
 	height: 250px;
 	overflow: scroll;
 	padding-left: 15px;
+	margin-top: 275px;
 }
 
 #news
@@ -166,6 +174,36 @@ iframe
 .email, #question
 {
 	width: 80%;
+}
+
+@media screen and (max-width: 992px)
+{
+	body
+	{
+		
+	}
+
+	.meteo, iframe
+	{
+		display: none;
+	}
+
+	#head
+	{
+		width: 325px;
+	}
+
+	#c_navbar
+	{
+		position: absolute;
+		top: -400px;
+		left: 90%;
+		width: 200%;
+		height: 50px;
+		padding: 5px;
+	}
+
+
 }
 
 @media screen and (max-width: 768px)
@@ -197,6 +235,26 @@ iframe
 	{
 		display: none;
 	}
+
+	.s_onglet
+	{
+		width: 30%;
+		position: absolute;
+		top: 800px;
+		left: 8%;
+		width: 50%;
+	}
+
+	footer
+	{
+		width: 30%;
+		position: absolute;
+		top: 550px;
+		left: 62%;
+		text-align: center;
+		overflow: auto;
+	}
+
 
 
 }
