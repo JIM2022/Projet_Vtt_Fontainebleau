@@ -6,7 +6,7 @@
         <meta name="viewport" content="initial-scale=1">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        
         <!-- Bootstrap -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <!-- Call CSS -->
@@ -14,105 +14,107 @@
         <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 
         <link rel="stylesheet" type="text/css" href="css/style_pages.css"/>
-
         <title>Balades familiales en Vtt</title>
     </head>
+
     <div id="page_balades">
         <body>
 
+                <div class="container-fluid">
+                    <?php include 'header.php';
+                    ?>
+                    
+                      <div class="container-fluid">
+                       <div class="row">
+                        <div class="col-lg-offset-1 col-lg-4 box">
+                            <div class="img">
 
-            <div class="container-fluid">
-                <?php include 'header.php';
-                ?>
-                    <div class="col-lg-offset-1 col-lg-4 box">
-                        <div class="img">
+                                <img width="100px" height="100px" src="img/vtt_familles_1.jpg" alt="arbonne">  
+                            </div>
+                            <a href="img/Plan_promenade_arbonne.pdf">
+                                <h4>Exploration du Massif des 3 Pignons</h4></a>
 
-                            <img width="100px" height="100px" src="img/vtt_familles_1.jpg" alt="arbonne">  
+                            <p><span> Circuit au départ de Arbonne la Foret.</span><br>
+                                <span> Parcours de 3,2 kilomètres</span></p>
+                            <p>Descriptif: Exploration en famille du massif forestier des 3 pignons. <br/>
+                                Découvert des paysages "méditerranéens" ce cette partie de la foret de Fontainebleau.</p><br/>
+
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="picto">
+                                            <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-prestations.gif"> 
+                                        </td>
+                                        <td>
+                                            <span>Accès Libre toute l'année</span>    
+                                        </td>
+                                    </tr> 
+
+                                    <tr>
+                                        <td class="picto">
+                                            <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-pourqui.gif">
+                                        </td>
+                                        <td>
+                                            <span>Pour Qui ?</span>
+                                            " Débutants.     
+                                        </td>
+                                    </tr> 
+
+                                    <tr>
+                                        <td class="picto">
+                                            <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-handicap.gif">
+                                        </td>
+                                        <td>
+                                            <span>Accessibilité</span>
+                                            " Accessible aux personnes à mobilité réduite.               
+                                        </td>
+                                    </tr> 
+
+                                    <tr>
+                                        <td class="picto">
+                                            <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-distances.gif">
+                                        </td>
+                                        <td>
+                                            <span>Longueur</span>                  
+                                            " 3,2 Kilomètres               
+                                        </td>
+                                    </tr> 
+
+                                    <tr>
+                                        <td class="picto">
+                                            <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-duree.gif">
+                                        </td>
+                                        <td>
+                                            <span>Durée</span>                  
+                                            "     boucle : 1 Heure et 30 minutes
+                                        </td>
+                                    </tr> 
+
+                                    <tr>
+                                        <td class="picto">
+                                            <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-balisage.gif">
+                                        </td>
+                                        <td>
+                                            <span>Balisage</span>                  
+                                            " Jaune                
+                                        </td>
+                                    </tr> 
+
+                                    <tr>
+                                        <td class="picto">
+                                            <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-adresse.gif">
+                                        </td>
+                                        <td>
+                                            <span>Point de Départ</span>                  
+                                            " Parking Canche aux merciers, Arbonne la Foret<br/>                                           
+                                            Latitude : 48.390093 | Longitude : 2.554183<br/>
+
+                                        </td>
+                                    </tr> 
+                                </tbody> 
+                            </table> 
                         </div>
-                        <a href="img/Plan_promenade_arbonne.pdf">
-                            <h4>Exploration massif des 3 pignons</h4></a>
-
-                        <p><span> Circuit au départ de Arbonne la Foret.</span><br>
-                            <span> Parcours de 3,2 kilomètres</span></p>
-                        <p>Descriptif: Exploration en famille du massif forestier des 3 pignons. <br/>
-                            Découvert des paysages "méditerranéens" ce cette partie de la foret de Fontainebleau.</p>
-
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <td class="picto">
-                                        <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-prestations.gif"> 
-                                    </td>
-                                    <td>
-                                        <span>Accès Libre toute l'année</span>    
-                                    </td>
-                                </tr> 
-
-                                <tr>
-                                    <td class="picto">
-                                        <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-pourqui.gif">
-                                    </td>
-                                    <td>
-                                        <span>Pour Qui ?</span>
-                                        " Débutants.     
-                                    </td>
-                                </tr> 
-
-                                <tr>
-                                    <td class="picto">
-                                        <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-handicap.gif">
-                                    </td>
-                                    <td>
-                                        <span>Accessibilité</span>
-                                        " Accessible aux personnes à mobilité réduite.               
-                                    </td>
-                                </tr> 
-
-                                <tr>
-                                    <td class="picto">
-                                        <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-distances.gif">
-                                    </td>
-                                    <td>
-                                        <span>Longueur</span>                  
-                                        " 3,2 Kilomètres               
-                                    </td>
-                                </tr> 
-
-                                <tr>
-                                    <td class="picto">
-                                        <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-duree.gif">
-                                    </td>
-                                    <td>
-                                        <span>Durée</span>                  
-                                        "     boucle : 1 Heure et 30 minutes
-                                    </td>
-                                </tr> 
-
-                                <tr>
-                                    <td class="picto">
-                                        <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-balisage.gif">
-                                    </td>
-                                    <td>
-                                        <span>Balisage</span>                  
-                                        " Jaune                
-                                    </td>
-                                </tr> 
-
-                                <tr>
-                                    <td class="picto">
-                                        <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-adresse.gif">
-                                    </td>
-                                    <td>
-                                        <span>Point de Départ</span>                  
-                                        " Parking Canche aux merciers, Arbonne la Foret<br/>                                           
-                                        Latitude : 48.390093 | Longitude : 2.554183<br/>
-
-                                    </td>
-                                </tr> 
-                            </tbody> 
-                        </table> 
-                    </div>
-
+                    
 
                     <div class="col-lg-offset-2 col-lg-4 box">
                         <div class="img">
@@ -126,7 +128,7 @@
                             <span> Parcours de 3 kilomètres</span></p>
                         <p>Descriptif: Cette balade, idéale pour la détente en famille, vous emmène <br/>
                             à la découverte des rochers de la forêt des Trois-Pignons
-                            et des peuplements forestiers.</p>
+                            et des peuplements forestiers.</p><br/>
 
 
                         <table>
@@ -217,7 +219,7 @@
                         </div>
                         <p><span> Circuit au départ de Arbonne la Foret.</span><br/>
                             <span> Parcours de 5,5 kilomètres</span></p>
-                        <p>Descriptif: A la frontière de la forêt des Trois-Pignons<br/> et de Fontainebleau,vous pourrez apprécier la variété des paysages.</p>
+                        <p>Descriptif: A la frontière de la forêt des Trois-Pignons<br/> et de Fontainebleau,vous pourrez apprécier la variété des paysages.</p><br/>
 
 
                         <table>
@@ -391,8 +393,13 @@
                     </div> 
                 </div>
             </div>
+            </div>
 
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>  
+            <script
+                    src="https://code.jquery.com/jquery-3.1.1.slim.js"
+                    integrity="sha256-5i/mQ300M779N2OVDrl16lbohwXNUdzL/R2aVUXyXWA="
+                    crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>    
         </body>
     </div>
 </html>

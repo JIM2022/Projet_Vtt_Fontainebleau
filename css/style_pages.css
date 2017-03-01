@@ -4,9 +4,9 @@
     border-radius: 5px;
     margin-top: 40px;
     margin-bottom: 20px;
+    padding-bottom: 10px;
+    
 } 
-
-
 
 #c_mobile {
 
@@ -38,8 +38,8 @@ margin-right: -10px;
 }
 
 marquee{
-    
-   /* border: 5px solid #99de68;
+   /*************************** En attente de résolution par Jim*********
+    border: 5px solid #99de68;
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.7);
     width: 74%;
@@ -70,19 +70,23 @@ h1{
 }
 
 h4{
-    text-align: left;       
+    text-align: left;
+    font-size: 22px;
 }
-
+a:hover{
+    color: red;
+}
 
 
 p, td{
     color:rgba(255, 255, 255, 0.98);
+    font-family: Josefin Sans;
+    font-size: 16px;
 }
 
 @media screen and (min-width: 1900px) {
 
     .box{
-        background-color: #1400ff;
         width: 80%;
     }
 }
@@ -93,6 +97,11 @@ p, td{
 
         width: 1170px;
     }
+    .row{
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -101,11 +110,10 @@ p, td{
     }
     .row{
         margin-left: 20px;
-        margin-left: 20px;
+        margin-right: 20px;
+        
     }
-    .box{
-        background-color: #b100ff;
-    }
+    
     #c_mobile {
 
         display: block;
@@ -122,11 +130,10 @@ p, td{
     }
     .row{
         margin-left: 20px;
-        margin-left: 20px;
+        margin-right: 20px;
+        
     }
-    .box{
-        background-color: aqua;
-    }
+    
     #c_mobile {
 
         display: block;
