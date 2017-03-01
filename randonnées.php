@@ -21,18 +21,8 @@
         <body>
 
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-offset-1 col-lg-10">
-                        <div id="c_navbar">
-                            <ul>
-                                <li><a href="#1">Acceuil</a></li>
-                                <li><a href="randonn%C3%A9es.html">Randonnées</a></li>
-                                <li><a href="balades%20en%20famille.html">Balade en famille</a></li>
-                                <li><a href="#1">Location</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+               <?php include 'header.php';
+               ?>
                 
 
                 <div class="container-fluid">

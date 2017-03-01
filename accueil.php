@@ -32,10 +32,10 @@
 							<div class="col-xs-4">
 							<div id="c_navbar">
 								<ul>
-									<li><a href="#1">Acceuil</a></li>
-									<li><a href="#1">Randonnées</a></li>
-									<li><a href="#1" class="">Balade en famille</a></li>
-									<li><a href="#1">Location</a>	</li>
+									<li><a href="accueil.php">Accueil</a></li>
+									<li><a href="randonnées.php">Randonnées</a></li>
+									<li><a href="balades_en_famille.php" class="">Balade en famille</a></li>
+									<li><a href="page4.php">Location</a>	</li>
 								</ul>
 							</div>
 

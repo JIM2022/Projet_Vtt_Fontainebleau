@@ -7,10 +7,10 @@
 			<div class="col-xs-offset-1 col-xs-4">
 				<div id="c_navbar">
 					<ul>
-						<li><a href="#1">Accueil</a></li>
-						<li><a href="#1">Randonnées</a></li>
-						<li><a href="#1">Balades en famille</a></li>
-						<li><a href="#1">Location</a>	</li>
+						<li><a href="accueil.php">Accueil</a></li>
+						<li><a href="randonnées.php">Randonnées</a></li>
+						<li><a href="balades_en_famille.php">Balades en famille</a></li>
+						<li><a href="page4.php">Location</a>	</li>
 					</ul>
 				</div>
 			</div>
