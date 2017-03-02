@@ -17,6 +17,27 @@
 		<body>
 
 			<div class="container container_custom">
+				
+				<nav>
+			  	<div class="navbar navbar-inverse navbar-fixed-top">
+ 					<div class="navbar-header">
+   						<button type="button" class="navbar-toggle" data-toggle	="collapse" data-target=".navbar-collapse">
+      						<span class="icon-bar"></span>
+      						<span class="icon-bar"></span>
+      						<span class="icon-bar"></span>
+    					</button>
+    					<a class="navbar-brand" href="#">Navigation</a>
+  					</div>
+  					<div class="navbar-collapse collapse">
+   						<ul class="nav navbar-nav">
+					    	<li class="active"><a href="accueil.php">Accueil</a></li>
+					    	<li class="active"><a href="randonnées.php">Randonnées</a></li>
+					    	<li class="active"><a href="balades_en_famille.php">Balades en familles</a></li>
+					    	<li class="active"><a href="page4.php">Location</a></li>
+				    	</ul>
+  					</div>
+				</div>
+				</nav>
 
 				<h1><img src="img/VTT.png" id="logo"></h1>
 
@@ -28,31 +49,6 @@
 				
 				</div>
 
-				<nav>
-							<div class="col-xs-4">
-							<div id="c_navbar">
-								<ul>
-									<li><a href="accueil.php">Accueil</a></li>
-									<li><a href="randonnées.php">Randonnées</a></li>
-									<li><a href="balades_en_famille.php" class="">Balade en famille</a></li>
-									<li><a href="page4.php">Location</a>	</li>
-								</ul>
-							</div>
-
-							<div class="col-xs-4">
-							<div id="c_navbar_2">
-								<ul>
-									<li><a href="#1">Acceuil</a></li>
-									<li><a href="#1">Randonnées</a></li>
-								</ul>
-								<ul>
-									<li><a href="#1" class="">Balade en famille</a></li>
-									<li><a href="#1">Location</a>	</li>
-								</ul>
-							</div>
-
-							</div>
-				</nav>
 
 				<div id="row s_info">
 				
@@ -106,9 +102,13 @@
 
 				<div>
 
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d84726.97578082202!2d2.6115195264372346!3d48.42355814408098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5f38bf6baad81%3A0x40b82c3688c5a90!2s77300+Fontainebleau!5e0!3m2!1sfr!2sfr!4v1488202301496" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d84726.97578082202!2d2.6115195264372346!3d48.42355814408098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5f38bf6baad81%3A0x40b82c3688c5a90!2s77300+Fontainebleau!5e0!3m2!1sfr!2sfr!4v1488202301496" width="22%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 				</div>
+
+					<script type="text/javascript" src="java.js"></script>
+					<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+					<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 		</body>
 

@@ -65,29 +65,6 @@ h3
 	font-size: 22px;
 }
 
-#c_navbar li
-{
-	list-style: none;
-	display: inline;
-	padding: 8px;
-	margin-top: 50px;
-	text-align:center;
-}
-
-#c_navbar 
-{
-	border: 5px solid #99de68;
-	border-radius: 5px;
-	padding: 15px;
-	text-align: center;
-	background-color: black;
-	opacity: 0.7;
-}
-
-#c_navbar_2
-{
-	display: none;
-}
 
 #head
 {
@@ -161,14 +138,14 @@ h3
 {
 	position: absolute;
 	top: 0px;
-	left: -250px;
+	left: -170px;
 }
 
 iframe
 {
 	position: absolute;
-	top: 445px;
-	left: 280px;
+	top: 375px;
+	left: 200px;
 }
 
 .email, #question
@@ -176,12 +153,73 @@ iframe
 	width: 80%;
 }
 
-@media screen and (max-width: 992px)
+
+nav
 {
-	body
+	background-color: black;
+	opacity: 0.8;
+}
+
+
+.navbar-toggle .icon-bar:nth-of-type(2) {
+	  top: 1px;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(3) {
+  	top: 2px;
+}
+
+.navbar-toggle .icon-bar {
+	  position: relative;
+	  transition: all 500ms ease-in-out;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(1) {
+	  top: 6px;
+	  transform: rotate(45deg);
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+	  background-color: transparent;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+	  top: -6px;
+	  transform: rotate(-45deg);
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px)
+{
+	#head
 	{
-		
+		width: 115%;
 	}
+
+	#s_place1
+	{
+		position: absolute;
+		left: 42.5%;
+	}
+
+	#s_place2
+	{
+		position: absolute;
+		left: 42.5%;
+	}
+
+	#s_place3
+	{
+		position: absolute;
+		left: 42.5%;
+	}
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px)
+{
 
 	.meteo, iframe
 	{
@@ -190,17 +228,45 @@ iframe
 
 	#head
 	{
-		width: 325px;
+		width: 150%;
+		position: absolute;
+		top: -180px;
+		left: 350px;
 	}
 
-	#c_navbar
+	#s_place1
 	{
 		position: absolute;
-		top: -400px;
-		left: 90%;
-		width: 200%;
-		height: 50px;
-		padding: 5px;
+		top: 450px;
+		width: 51%;
+		height: 35%;
+	}
+
+	#s_place2
+	{
+		position: absolute;
+		top: 250px;
+		left: 15px;
+		width: 37%;
+		height: 35%;
+	}
+
+	#s_place3
+	{
+		position: absolute;
+		top: 325px;
+		left: 15px;
+		width: 37%;
+		height: 35%;
+	}
+
+	footer
+	{
+		position: absolute;
+		top: 550px;
+		left: 380px;
+		width: 51%;
+		height: 40.5%
 	}
 
 
@@ -211,24 +277,16 @@ iframe
 	#logo
 	{
 		position: absolute;
-		top: 0;
-		left: 110px;
+		top: 30px;
+		left: 18%;
 	}
 
 	#head
 	{
 		position: absolute;
-		top: 300px;
-		left: 170px;
+		top: 330px;
+		left: 70%;
 		width: 300px;
-	}
-
-	#c_navbar
-	{
-		position: absolute;
-		top: 370px;
-		left: 50px;
-		width: 550px;
 	}
 
 	.meteo, iframe
@@ -240,7 +298,7 @@ iframe
 	{
 		width: 30%;
 		position: absolute;
-		top: 800px;
+		top: 700px;
 		left: 8%;
 		width: 50%;
 	}
@@ -249,7 +307,7 @@ iframe
 	{
 		width: 30%;
 		position: absolute;
-		top: 550px;
+		top: 450px;
 		left: 62%;
 		text-align: center;
 		overflow: auto;
