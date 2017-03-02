@@ -53,18 +53,23 @@
 				<div id="row s_info">
 				
 					<div class= "s_onglet" id="s_place1">
-						<h3>Lorem ipsum dolor</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi placeat tenetur consectetur dignissimos alias rerum, dolor ex velit inventore nemo autem error ipsa, laboriosam soluta consequatur repellat vitae et maxime! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio obcaecati minus, harum eaque et nemo suscipit, tempora voluptatem repudiandae optio ab ad quos iusto, accusamus velit, numquam aliquid aperiam veritatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi totam in ipsum temporibus, eum labore, eligendi explicabo nisi atque hic eaque quia illum? Itaque odio veniam amet, maxime, neque impedit?</p>
+						<h3>Actualités :</h3>
+							<ul>
+								<li>Nouveaux parcours randonnées, le parcours des Grands Feuillards, venez découvrir ce parcours inédit situé au cœur de la forêt. </li>
+								<li>Le 19 Mars 2017, l'association "Les vieux bois" organise une randonnée familial, venez prendre un bol d'air frais avec votre famille et amis.</li>
+								<li>La nature nous ouvre ses bras et nous respecte, faite de même, ramasser vos déchets !:) </li>
+							</ul>
 					</div>
 
 					<div class="s_onglet" id="s_place2">
-						<h3>Lorem ipsum dolor</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi placeat tenetur consectetur dignissimos alias rerum, dolor ex velit inventore nemo autem error ipsa, laboriosam soluta consequatur repellat vitae et maxime! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio obcaecati minus, harum eaque et nemo suscipit, tempora voluptatem repudiandae optio ab ad quos iusto, accusamus velit, numquam aliquid aperiam veritatis.</p>
+						<h3>Parcours et balades :</h3>
+							<p>La ville de Fontainebleau vous propose différents parcours, de randonnée ou de balade entre famille, pour tout niveaux et tout âge, validé par l’Office National des Forêts (ONF). Venez les découvrir !</p>
 					</div>
 
 					<div class="s_onglet" id="s_place3">
-						<h3>Lorem ipsum dolor</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi placeat tenetur consectetur dignissimos alias rerum, dolor ex velit inventore nemo autem error ipsa, laboriosam soluta consequatur repellat vitae et maxime! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam doloribus, ipsum ducimus eius optio quos quo accusantium architecto ipsa maiores. Animi tenetur excepturi sint architecto! Dolores, accusantium alias molestiae ea.</p>
+						<h3>Location</h3>
+							<p>Venez vous équiper afin de partir à l’aventure chez « A la petite Reine »,  vélo, porte-bébé, casque ou gourde, vous trouverez tout ce qu’il vous faut pour partir à l’aventure !!</p><br/>
+							<h4><a href="page4.php">Les tarifs de la location en cliquant ici</a></h4>
 					</div>
 
 				</div>
@@ -84,7 +89,7 @@
 						<h3>Nous contacter :</h3>
 						<form>
 							<input type="email" class="email" placeholder="Votre email" />
-							<textarea name="question" id="question" placeholder="Votre question" ></textarea>
+							<textarea name="question" id="question" placeholder="Votre message" ></textarea>
 							<p id="news"><input type="checkbox" name="news" id="news" />S'abonner a la new's letter</p>
 							<input type="submit" value="Envoyer" />
 						</form>
