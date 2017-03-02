@@ -4,9 +4,6 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="initial-scale=1">
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-
         <!-- Bootstrap -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <!-- Call CSS -->
@@ -14,6 +11,9 @@
         <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 
         <link rel="stylesheet" type="text/css" href="css/style_pages.css">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
         <title>Rando Vtt</title>
     </head> 
 

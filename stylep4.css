@@ -3,7 +3,7 @@ body {
 
 	font-size: 2em;
 	font-family: Josefin Sans;
-	color: #68b2dd;
+	color: white;
 	background: url(img/backgroundpage4.jpg) no-repeat center center fixed;
 	background-size: cover;
 
@@ -11,7 +11,7 @@ body {
 }
 
 a {
-	color: #68b2dd;
+	color: white;
 }
 
 
@@ -55,7 +55,7 @@ a {
 	background: rgba(0, 0, 0, 0.8);
 	padding: 20px;
 	margin-bottom: 70px;
-	color: #68b2dd;
+	color: white;
 }
 
 #c_infoloc {

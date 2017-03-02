@@ -84,8 +84,8 @@
 
 				<footer class="row">
 					
-					<h3>lorem ipsum dolor</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, voluptatum maxime repellat reprehenderit excepturi itaque sit dicta expedita molestiae optio hic, voluptatem error aut deleniti tempora, consequuntur quasi, animi corporis.</p>
+					<h3>Ville de Fontainebleau</h3>
+						<p>La forêt de Fontainebleau, important massif boisé de  25 000 Ha, vous accueil afin de passer des moments privilégies au sein de la nature. La ville de Fontainebleau est à votre disposition pour toutes demande d’informations. Utilisez le formulaire ci-dessous!</p>
 						<h3>Nous contacter :</h3>
 						<form>
 							<input type="email" class="email" placeholder="Votre email" />
