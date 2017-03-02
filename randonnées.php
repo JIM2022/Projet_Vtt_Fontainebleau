@@ -6,7 +6,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
         <!-- Bootstrap -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <!-- Call CSS -->
@@ -21,9 +21,14 @@
         <body>
 
             <div class="container-fluid">
-               <?php include 'header.php';
-               ?>
-                
+                <?php include 'header.php';
+                ?>
+
+                <div class="title">
+
+                    <marquee direction="left" behavior="scroll" scrollamount="6" > Parcours Randonnées en Vtt au sein du Domaine Forestier de fonatainebleau.</marquee>
+                </div>
+
 
                 <div class="container-fluid">
                     <div class="row">
@@ -32,7 +37,7 @@
                                 <img width="100px" height="100px" src="img/fontainebleau.jpg" alt="fontainebleau">  
                             </div>   
                             <a href="http://www.lescyclosduloing.fr/images/professionnel/371137/Circuit_VTT.pdf" alt="link" target="_blank">
-                                <h4>Le massif forestier en 3 Circuits VTT</h4></a>
+                                <h4>Le Massif Forestier en 3 Circuits VTT</h4></a>
 
                             <p><span>3 Circuits Vtt au départ de Fontainebleau</span><br/>
                                 <span> 3 Parcours (38 kms - 48 Kms - 50 Kms)</span></p>
@@ -127,7 +132,7 @@
                             </div>     
                             <a href="http://www.lescyclosduloing.fr/images/professionnel/371137/Circuit_VTT_du_Petit_Barbeau.jpg" alt="link" target="_blank">
                                 <h4>Circuit VTT du Petit Barbeau</h4></a>
-                            <p><span> Circuit Vtt au départ de Samois sur Seine, à la découverte des bords de seine.</span><br>
+                            <p><span> Circuit Vtt au départ de Samois sur Seine.</span><br>
                                 <span> Parcours de 10 kms</span></p>
                             <p>Descriptif: Entre Seine et forêt, à proximité de la base de loisirs de Bois-le-Roi,<br>
                                 ce circuit vous emmène à la découverte d'une grande diversité d'essences d'arbres.</p>
@@ -216,8 +221,8 @@
                             <a href="http://www.lescyclosduloing.fr/images/professionnel/371137/Circuit_VTT_des_Grands_Feuillards.jpg" alt="link" target="_blank"><h4>Circuit VTT des Grands Feuillards</h4></a>
                             <p><span>Circuit Vtt dans le domaine des Grands Feuillards</span><br/>
                                 <span> Parcours de 7 kms</span></p>
-                            <p>Descriptif: Au cœur de la forêt, vous découvrirez les lisières des réserves<br/> biologiques intégrales et emprunterez des routes goudronnées fermées à la circulation automobile.<br/>
-                            </p>
+                            <p>Descriptif: Au cœur de la forêt, vous découvrirez les lisières des réserves<br/> biologiques intégrales et emprunterez des routes goudronnées <br/>
+                                fermées à la circulation automobile.<br/></p>
 
                             <table>
                                 <tbody>
@@ -287,7 +292,7 @@
                                         <td>
                                             <span>Point de Départ</span>                  
                                             " Parking "Des Grands Feuillards"  <br/>
-                                            48.375278 | Longitude : 2.623333<br/>
+                                            Latitude : 48.375278 | Longitude : 2.623333
 
                                         </td>
                                     </tr> 
@@ -302,7 +307,7 @@
                                 <img width="100px" height="100px" src="img/3.JPG" alt="foret">
                             </div>  
                             <a href="http://www.lescyclosduloing.fr/images/professionnel/371137/Circuit_VTT_du_Mont_Aigu.jpg" alt="link" target="_blank"><h4>Circuit VTT du Mont Aigu</h4></a>
-                            <p><span>Circuit Vtt à la découverte du Mont Aigu, sur les Hauteurs de Fontainebleau.</span><br/>
+                            <p><span>Circuit Vtt à la découverte du Mont Aigu.</span><br/>
                                 <span> Parcours de 6 kms</span></p>
                             <p>Descriptif: Pour partir à la découverte de rochers étonnants et de belles ouvertures sur la forêt.<br/> 
                                 Pour les plus vaillants, quelques pentes à gravir sur les allées.</p><br/>
@@ -387,13 +392,13 @@
                             <div class="img">
                                 <img width="100px" height="100px" src="img/pv_fleau.jpg" alt="points de vues">             
                             </div>       
-                            <a href="http://2.bp.blogspot.com/-w2h9N1Rc0pU/Vf7NRH3NZsI/AAAAAAAACeI/ycnPvy9W2aw/s1600/2.jpg" alt="link"><h4>Promenade des points de vue</h4></a>
+                            <a href="http://2.bp.blogspot.com/-w2h9N1Rc0pU/Vf7NRH3NZsI/AAAAAAAACeI/ycnPvy9W2aw/s1600/2.jpg" alt="link"><h4>Promenade des Points de Vue</h4></a>
 
                             <p><span>Circuit de découverte des points de vue exceptionnels sur la forêt de Fontainebleau.</span><br/>
                                 <span> Parcours de 12 kms</span></p>
-                            <p>Descriptif: Une boucle balisée en jaune vous permettra de découvrir,
-                                à partir de sept points de vue différents, les villes, villages, 
-                                monuments et autres curiosités des lisières de la forêt.</p>
+                            <p>Descriptif: Une boucle balisée en jaune vous permettra de découvrir,<br/>
+                                à partir de sept points de vue différents, les villes, villages, <br/>
+                                monuments et autres curiosités des lisières de la forêt.</p><br/> 
 
                             <table>
                                 <tbody>
@@ -452,7 +457,7 @@
                                         </td>
                                         <td>
                                             <span>Balisage</span>                  
-                                            " Jaune                
+                                            " Jaune               
                                         </td>
                                     </tr> 
 
@@ -473,7 +478,10 @@
                     </div>
                 </div>
 
-
+                <script
+                        src="https://code.jquery.com/jquery-3.1.1.slim.js"
+                        integrity="sha256-5i/mQ300M779N2OVDrl16lbohwXNUdzL/R2aVUXyXWA="
+                        crossorigin="anonymous"></script>
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>  
 
                 </body>

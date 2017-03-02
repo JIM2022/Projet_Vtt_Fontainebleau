@@ -1,12 +1,27 @@
+
 .box{
     background-color: rgba(0, 0, 0, 0.8); 
     border: 5px solid #99de68;
     border-radius: 5px;
     margin-top: 40px;
     margin-bottom: 20px;
-} 
+    padding-bottom: 10px;
+    height: 600px;
+}
 
-
+marquee{
+    height: 50px;
+    border: 5px solid #99de68;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 80%;
+    margin-left: 9%;
+    color:#99de68;
+    height:60px;
+    font-family: Josefin Sans;
+    font-size:24pt;
+    font-style:italic;  
+}
 
 #c_mobile {
 
@@ -19,40 +34,28 @@
 }
 
 #c_navbar li {
-list-style: none;
-display: inline;
-padding: 10px;
-margin: 0;
-text-align:center;
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    margin: 0;
+    text-align:center;
 }
 #c_navbar ul{
-
-background-color: rgba(0, 0, 0, 0.7);
-border: 5px solid #99de68;
-border-radius: 5px;
-padding: 20px;
-margin-top: 130px;
-text-align: center;
-margin-left: -10px;
-margin-right: -10px;
-}
-
-marquee{
-    
-   /* border: 5px solid #99de68;
-    border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.7);
-    width: 74%;
-    height: 40px;
-    margin-left: 118px;*/
+    border: 5px solid #99de68;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 130px;
+    text-align: center;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 #page_randos{
     background: url(../img/wall_test.jpg); 
     background-size: cover;
-
-
 }
+
 #page_balades{
     background:url(../img/wall_famille.jpeg);
     background-size: cover;
@@ -63,6 +66,7 @@ marquee{
     margin-left: 20px;
     opacity: inherit;    
 }
+
 h1{
     display: inline-block;
     width: 90%;
@@ -70,28 +74,35 @@ h1{
 }
 
 h4{
-    text-align: left;       
+    text-align: left;
+    font-size: 22px;
 }
 
-
+a:hover{
+    color: rgba(255, 0, 0, 0.56);
+}
 
 p, td{
     color:rgba(255, 255, 255, 0.98);
+    font-family: Josefin Sans;
+    font-size: 16px;
 }
 
 @media screen and (min-width: 1900px) {
 
     .box{
-        background-color: #1400ff;
         width: 80%;
     }
 }
-
 
 @media screen and (max-width: 1200px) {
     .container {
 
         width: 1170px;
+    }
+    .row{
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 
@@ -101,13 +112,10 @@ p, td{
     }
     .row{
         margin-left: 20px;
-        margin-left: 20px;
+        margin-right: 20px;
     }
-    .box{
-        background-color: #b100ff;
-    }
-    #c_mobile {
 
+    #c_mobile {
         display: block;
     }
     #c_desktop {
@@ -122,13 +130,10 @@ p, td{
     }
     .row{
         margin-left: 20px;
-        margin-left: 20px;
+        margin-right: 20px;
     }
-    .box{
-        background-color: aqua;
-    }
-    #c_mobile {
 
+    #c_mobile {
         display: block;
     }
     #c_desktop {
