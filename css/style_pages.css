@@ -122,6 +122,10 @@ p, td{
     #c_desktop {
         display: none;
     }
+    #c_météo_mobile {
+
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -139,5 +143,10 @@ p, td{
     }
     #c_desktop {
         display: none;
+    }
+
+    #c_météo_mobile {
+
+        text-align: center;
     }
 }
