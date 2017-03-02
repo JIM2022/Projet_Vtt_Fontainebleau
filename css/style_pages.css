@@ -24,6 +24,12 @@ marquee{
     font-style:italic;  
 }
 
+.collapse {
+
+    font-family: Josefin Sans;
+    font-size: 1.4em;
+}
+
 #c_mobile {
 
     display: none;
