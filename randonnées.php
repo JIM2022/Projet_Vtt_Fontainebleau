@@ -26,7 +26,7 @@
 
                 <div class="title">
 
-                    <marquee direction="left" behavior="scroll" scrollamount="6" > Parcours Randonnées en Vtt au sein du Domaine Forestier de fonatainebleau.</marquee>
+                    <marquee direction="left" behavior="scroll" scrollamount="6" > Parcours Randonnées en Vtt au sein du Domaine Forestier de Fontainebleau.</marquee>
                 </div>
 
 
