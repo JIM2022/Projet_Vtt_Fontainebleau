@@ -6,7 +6,7 @@
 					<li><h3>Tarif vélo :</h3></li>
 					<li>8€ l'heure / vélo</li>
 					<li>15€ la journée / vélo</li>
-					<li>55€ la journée / vélo</li>
+					<li>55€ la semaine / vélo</li>
 					<li>100€ les 2 semaines / vélo</li>
 					<li>130€ le mois / vélo</li>
 				</ul>
