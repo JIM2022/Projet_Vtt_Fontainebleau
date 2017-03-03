@@ -36,8 +36,8 @@
                             <div class="img">
                                 <img width="100px" height="100px" src="img/fontainebleau.jpg" alt="fontainebleau">  
                             </div>   
-                            <a href="http://www.lescyclosduloing.fr/images/professionnel/371137/Circuit_VTT.pdf" alt="link" target="_blank">
-                                <h4>Le Massif Forestier en 3 Circuits VTT</h4></a>
+                            <a href="http://www.lescyclosduloing.fr/images/professionnel/371137/Circuit_VTT.pdf" alt="link" target="_blank" title="Cliquez pour découvrir la carte !">
+                                <h4>Le Massif Forestier en 3 Circuits VTT <img src="img/infobulle.png" alt="infobulle_icone" width="40px" height="40px"></h4></a>
 
                             <p><span>3 Circuits Vtt au départ de Fontainebleau</span><br/>
                                 <span> 3 Parcours (38 kms - 48 Kms - 50 Kms)</span></p>
@@ -131,7 +131,7 @@
                                 <img width="100px" height="100px" src="img/1.jpg" alt="foret">
                             </div>     
                             <a href="http://www.lescyclosduloing.fr/images/professionnel/371137/Circuit_VTT_du_Petit_Barbeau.jpg" alt="link" target="_blank">
-                                <h4>Circuit VTT du Petit Barbeau</h4></a>
+                                <h4>Circuit VTT du Petit Barbeau <img src="img/infobulle.png" alt="infobulle_icone" width="40px" height="40px"></h4></a>
                             <p><span> Circuit Vtt au départ de Samois sur Seine.</span><br>
                                 <span> Parcours de 10 kms</span></p>
                             <p>Descriptif: Entre Seine et forêt, à proximité de la base de loisirs de Bois-le-Roi,<br>
