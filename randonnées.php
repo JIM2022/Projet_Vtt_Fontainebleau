@@ -130,7 +130,7 @@
                             <div class="img"> 
                                 <img width="100px" height="100px" src="img/1.jpg" alt="foret">
                             </div>     
-                            <a href="http://www.lescyclosduloing.fr/images/professionnel/371137/Circuit_VTT_du_Petit_Barbeau.jpg" alt="link" target="_blank">
+                            <a href="http://www.lescyclosduloing.fr/images/professionnel/371137/Circuit_VTT_du_Petit_Barbeau.jpg" alt="link" target="_blank" title="Cliquez pour découvrir la carte !">
                                 <h4>Circuit VTT du Petit Barbeau <img src="img/infobulle.png" alt="infobulle_icone" width="40px" height="40px"></h4></a>
                             <p><span> Circuit Vtt au départ de Samois sur Seine.</span><br>
                                 <span> Parcours de 10 kms</span></p>
@@ -218,7 +218,7 @@
                             <div class="img">
                                 <img width="100px"  height="100px" src="img/2.jpg" alt="foret">
                             </div>  
-                            <a href="http://www.lescyclosduloing.fr/images/professionnel/371137/Circuit_VTT_des_Grands_Feuillards.jpg" alt="link" target="_blank"><h4>Circuit VTT des Grands Feuillards</h4></a>
+                            <a href="http://www.lescyclosduloing.fr/images/professionnel/371137/Circuit_VTT_des_Grands_Feuillards.jpg" alt="link" target="_blank" title="Cliquez pour découvrir la carte !"><h4>Circuit VTT des Grands Feuillards <img src="img/infobulle.png" alt="infobulle_icone" width="40px" height="40px"></h4></a>
                             <p><span>Circuit Vtt dans le domaine des Grands Feuillards</span><br/>
                                 <span> Parcours de 7 kms</span></p>
                             <p>Descriptif: Au cœur de la forêt, vous découvrirez les lisières des réserves<br/> biologiques intégrales et emprunterez des routes goudronnées <br/>
@@ -306,7 +306,7 @@
                             <div class="img">
                                 <img width="100px" height="100px" src="img/3.JPG" alt="foret">
                             </div>  
-                            <a href="http://www.lescyclosduloing.fr/images/professionnel/371137/Circuit_VTT_du_Mont_Aigu.jpg" alt="link" target="_blank"><h4>Circuit VTT du Mont Aigu</h4></a>
+                            <a href="http://www.lescyclosduloing.fr/images/professionnel/371137/Circuit_VTT_du_Mont_Aigu.jpg" alt="link" target="_blank" title="Cliquez pour découvrir la carte !"><h4>Circuit VTT du Mont Aigu <img src="img/infobulle.png" alt="infobulle_icone" width="40px" height="40px"></h4></a>
                             <p><span>Circuit Vtt à la découverte du Mont Aigu.</span><br/>
                                 <span> Parcours de 6 kms</span></p>
                             <p>Descriptif: Pour partir à la découverte de rochers étonnants et de belles ouvertures sur la forêt.<br/> 
@@ -392,7 +392,7 @@
                             <div class="img">
                                 <img width="100px" height="100px" src="img/pv_fleau.jpg" alt="points de vues">             
                             </div>       
-                            <a href="http://2.bp.blogspot.com/-w2h9N1Rc0pU/Vf7NRH3NZsI/AAAAAAAACeI/ycnPvy9W2aw/s1600/2.jpg" alt="link"><h4>Promenade des Points de Vue</h4></a>
+                            <a href="http://2.bp.blogspot.com/-w2h9N1Rc0pU/Vf7NRH3NZsI/AAAAAAAACeI/ycnPvy9W2aw/s1600/2.jpg" alt="link" blank="target" title="Cliquez pour découvrir la carte !"><h4>Promenade des Points de Vue <img src="img/infobulle.png" alt="infobulle_icone" width="40px" height="40px"></h4></a>
 
                             <p><span>Circuit de découverte des points de vue exceptionnels sur la forêt de Fontainebleau.</span><br/>
                                 <span> Parcours de 12 kms</span></p>

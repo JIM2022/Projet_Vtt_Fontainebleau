@@ -44,7 +44,7 @@
 				<div class="row row_custom">
 
 						<div class="col-xs-4">
-							<p id="head">Bienvenue sur la page d'accueil du site regroupant les différentes activités liées au VTT dans fontainebleau et ces alentour.</p>
+							<p id="head">Bienvenue sur la page d'accueil du site regroupant les différentes activités liées au VTT dans Fontainebleau et ses alentours.</p>
 						</div>
 				
 				</div>
@@ -63,7 +63,7 @@
 
 					<div class="s_onglet" id="s_place2">
 						<h3>Parcours et balades :</h3>
-							<p>La ville de Fontainebleau vous propose différents parcours, de randonnée ou de balade entre famille, pour tout niveaux et tout âge, validé par l’Office National des Forêts (ONF). Venez les découvrir !</p>
+							<p>La ville de Fontainebleau vous propose différents parcours, de randonnée ou de balade entre famille, pour tous niveaux et tous âges, validé par l’Office National des Forêts (ONF).<br/><br/><a href="randonnées.php"> Venez les découvrir !</a></p>
 					</div>
 
 					<div class="s_onglet" id="s_place3">
@@ -85,12 +85,12 @@
 				<footer class="row">
 					
 					<h3>Ville de Fontainebleau</h3>
-						<p>La forêt de Fontainebleau, important massif boisé de  25 000 Ha, vous accueil afin de passer des moments privilégies au sein de la nature. La ville de Fontainebleau est à votre disposition pour toutes demande d’informations. Utilisez le formulaire ci-dessous!</p>
+						<p>La forêt de Fontainebleau, important massif boisé de  25 000 Ha, vous accueil afin de passer des moments privilégiés au sein de la nature. La ville de Fontainebleau est à votre disposition pour toutes demande d’informations. Utilisez le formulaire ci-dessous!</p>
 						<h3>Nous contacter :</h3>
 						<form>
 							<input type="email" class="email" placeholder="Votre email" />
 							<textarea name="question" id="question" placeholder="Votre message" ></textarea>
-							<p id="news"><input type="checkbox" name="news" id="news" />S'abonner a la new's letter</p>
+							<p id="news"><input type="checkbox" name="news" id="news" />S'abonner à la new's letter</p>
 							<input type="submit" value="Envoyer" />
 						</form>
 

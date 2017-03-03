@@ -39,8 +39,8 @@
 
                                 <img width="100px" height="100px" src="img/vtt_familles_1.jpg" alt="arbonne">  
                             </div>
-                            <a href="img/Plan_promenade_arbonne.pdf">
-                                <h4>Exploration du Massif des 3 Pignons</h4></a>
+                            <a href="img/Plan_promenade_arbonne.pdf" target="blank" title="Cliquez pour découvrir la carte !">
+                                <h4>Exploration du Massif des 3 Pignons <img src="img/infobulle.png" alt="infobulle_icone" width="40px" height="40px"></h4></a>
 
                             <p><span> Circuit au départ de Arbonne la Foret.</span><br>
                                 <span> Parcours de 3,2 kilomètres</span></p>
@@ -129,8 +129,8 @@
 
 
                                 <img width="100px" height="100px" src="img/vtt_familles_2.jpg" alt="sucremont">  
-                                <a href="img/Promenade_Sucremont.pdf">
-                                    <h4>Promenade de Sucremont</h4></a>
+                                <a href="img/Promenade_Sucremont.pdf" target="blank" title="Cliquez pour découvrir la carte !">
+                                    <h4>Promenade de Sucremont <img src="img/infobulle.png" alt="infobulle_icone" width="40px" height="40px"></h4></a>
                             </div>
                             <p><span> Circuit au départ de Noisy sur Ecole.</span><br/>
                                 <span> Parcours de 3 kilomètres</span></p>
@@ -222,8 +222,8 @@
 
 
                                 <img width="100px" height="100px" src="img/vtt_familles_3.jpg" alt="archers">  
-                                <a href="img/plan%20archers.pdf">
-                                    <h4>La Gorge aux Archers</h4></a>
+                                <a href="img/plan%20archers.pdf" target="blank" title="Cliquez pour découvrir la carte !">
+                                    <h4>La Gorge aux Archers <img src="img/infobulle.png" alt="infobulle_icone" width="40px" height="40px"></h4></a>
                             </div>
                             <p><span> Circuit au départ de Arbonne la Foret.</span><br/>
                                 <span> Parcours de 5,5 kilomètres</span></p>
@@ -314,8 +314,8 @@
 
 
                                 <img width="100px" height="100px" src="img/vtt_familles_4.JPG" alt="franchard">  
-                                <a href="img/plan_gorges_de_Franchard.pdf">
-                                    <h4>Promenade des Gorges de Franchard</h4></a>
+                                <a href="img/plan_gorges_de_Franchard.pdf" target="blank" title="Cliquez pour découvrir la carte !">
+                                    <h4>Promenade des Gorges de Franchard <img src="img/infobulle.png" alt="infobulle_icone" width="40px" height="40px"></h4></a>
                             </div>
                             <p><span> Circuit Familles aux Gorges de Franchard</span><br/>
                                 <span> Parcours de 3 kilomètres</span></p>
