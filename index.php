@@ -71,7 +71,7 @@ $result = $bdd->query('SELECT * FROM actu ORDER BY id DESC');
 									while ($donnee = $result->fetch()) { ?>
 								
 								<tr>
-									<td><?php echo $donnee['id']; ?></td>
+										
 									<td><?php echo $donnee['titre']; ?></td>
 									<td><?php echo $donnee['actu']; ?></td>
 									<td>
