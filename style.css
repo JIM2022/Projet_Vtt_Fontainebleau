@@ -1,3 +1,13 @@
+#titre {
+
+	text-align: center;
+	border: 2px solid white;
+}
+
+#add_actu {
+
+	text-align: center;
+}
 
 #logo
 {
@@ -58,6 +68,7 @@ form
 input
 {
 	margin: 10px;
+	color: black;
 }
 
 textarea
