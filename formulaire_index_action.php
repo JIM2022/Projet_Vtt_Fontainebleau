@@ -10,6 +10,7 @@ if (
 	)
 {
 		echo "Merci de remplir tous les champs";
+		header( "refresh:3;url=index.php" );
 	}
 else{
 	include_once 'model/connexion_bdd.php';
@@ -30,7 +31,6 @@ else{
 		));
 	$query ->closeCursor();	
 
-header('Location: index.php');
-
+header( "Location:index.php" );
 }
 
