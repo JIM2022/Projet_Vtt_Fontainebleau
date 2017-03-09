@@ -17,7 +17,7 @@
   					</div>
   					<div class="navbar-collapse collapse">
    						<ul class="nav navbar-nav">
-					    	<li class="active"><a href="accueil.php">Accueil</a></li>
+					    	<li class="active"><a href="index.php">Accueil</a></li>
 					    	<li class="active"><a href="randonnées.php">Randonnées</a></li>
 					    	<li class="active"><a href="balades_en_famille.php">Balades en familles</a></li>
 					    	<li class="active"><a href="page4.php">Location</a></li>
@@ -61,7 +61,7 @@
   					</div>
   					<div class="navbar-collapse collapse">
    						<ul class="nav navbar-nav">
-					    	<li class="active"><a href="accueil.php">Accueil</a></li>
+					    	<li class="active"><a href="index.php">Accueil</a></li>
 					    	<li class="active"><a href="randonnées.php">Randonnées</a></li>
 					    	<li class="active"><a href="balades_en_famille.php">Balades en familles</a></li>
 					    	<li class="active"><a href="page4.php">Location</a></li>
