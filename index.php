@@ -1,3 +1,8 @@
+<?php 
+include 'model/connexion_bdd.php';
+$result = $bdd->query('SELECT * FROM actu ORDER BY id DESC');
+
+?>
 <!DOCTYPE html>
 
 	<html lang="en">
@@ -54,11 +59,30 @@
 				
 					<div class= "s_onglet" id="s_place1">
 						<h3>Actualités :</h3>
-							<ul>
-								<li>Nouveaux parcours randonnées, le parcours des Grands Feuillards, venez découvrir ce parcours inédit situé au cœur de la forêt. </li>
-								<li>Le 19 Mars 2017, l'association "Les vieux bois" organise une randonnée familial, venez prendre un bol d'air frais avec votre famille et amis.</li>
-								<li>La nature nous ouvre ses bras et nous respecte, faite de même, ramasser vos déchets !:) </li>
-							</ul>
+						<a href="actu_formulaire.php"><input type="submit" value="Ajouter une actu"></a>
+						<table>
+							<thead>
+								<tr>
+									<td>Actualités :</td>
+								</tr>
+							</thead>
+							<tbody>
+								<?php
+									while ($donnee = $result->fetch()) { ?>
+								
+								<tr>
+									<td><?php echo $donnee['id']; ?></td>
+									<td><?php echo $donnee['titre']; ?></td>
+									<td><?php echo $donnee['actu']; ?></td>
+									<td>
+										<a href="delete_action.php?id=<?php echo $donnee['id']; ?>"><input type="submit" value="Supprimer"></a>
+										<a href="edit_formulaire.php?id=<?php echo $donnee['id']; ?>"><input type="submit" value="Editer"></a>
+									</td>
+								</tr>
+							<?php } ?>
+							</tbody>
+						</table>
+															
 					</div>
 
 					<div class="s_onglet" id="s_place2">
