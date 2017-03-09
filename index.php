@@ -30,7 +30,7 @@
   					</div>
   					<div class="navbar-collapse collapse">
    						<ul class="nav navbar-nav">
-					    	<li class="active"><a href="accueil.php">Accueil</a></li>
+					    	<li class="active"><a href="index.php">Accueil</a></li>
 					    	<li class="active"><a href="randonnées.php">Randonnées</a></li>
 					    	<li class="active"><a href="balades_en_famille.php">Balades en familles</a></li>
 					    	<li class="active"><a href="page4.php">Location</a></li>
@@ -82,18 +82,31 @@
 					
 				</div>
 
-				<footer class="row">
-					
-					<h3>Ville de Fontainebleau</h3>
-						<p>La forêt de Fontainebleau, important massif boisé de  25 000 Ha, vous accueil afin de passer des moments privilégiés au sein de la nature. La ville de Fontainebleau est à votre disposition pour toutes demande d’informations. Utilisez le formulaire ci-dessous!</p>
-						<h3>Nous contacter :</h3>
-						<form>
-							<input type="email" class="email" placeholder="Votre email" />
-							<textarea name="question" id="question" placeholder="Votre message" ></textarea>
-							<p id="news"><input type="checkbox" name="news" id="news" />S'abonner à la new's letter</p>
-							<input type="submit" value="Envoyer" />
+				<footer class="row">		
+					<h3>Contact :</h3>
+						<form div="formulaire" action="formulaire_index_action.php" method="POST">
+							<div>
+								<label for="nom">Nom :</label>
+								<input id="nom" placeholder="Dupont" type="text" name="nom">
+							</div>
+							<div>
+							<label for="prenom">Prénom :</label>
+							<input id="prenom" placeholder="Michel" type="text" name="prenom">
+							</div>
+							<div>
+								<label for="tel">Téléphone :</label>
+								<input id="tel" placeholder="06.25.74..." type="text" name="tel">
+							</div>
+							<div>
+								<label for="mail">E-mail :</label>
+								<input id="email" placeholder="dupont.michel@gmail.com" type="email" name="email">
+							</div>
+							<div>
+								<label for="message">Message :</label>
+								<textarea id="message" placeholder="Saisissez votre message..." type="text" name="message" rows="6"></textarea>
+							</div>
+							<input type="submit" value="Envoyer">
 						</form>
-
 					
 				</footer>
 
