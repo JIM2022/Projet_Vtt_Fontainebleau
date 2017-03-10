@@ -1,23 +1,8 @@
-<?php 		
-
-include_once 'model/connexion_bdd.php';
-
-	$query = $bdd->prepare('SELECT titre, actu FROM actu WHERE id= :id');
-	$query -> execute(array(
-		'titre' => $titre,
-		'actu' => $actu,
-		':id' => $_GET['id']
-		));
-	$query ->closeCursor();
-
-?>
-
-
 <h3>Ajouter une actualité :</h3>
 <form action="actu_formulaire_action.php" method="POST">
 	<div>
 		<label for="titre">Titre :</label>
-		<input id="titre" value="<?php echo $_GET['titre']; ?>"" type="text" name="titre">
+		<input id="titre" type="text" name="titre">
 	</div>
 	<div>
 		<label for="actu">Actu :</label>

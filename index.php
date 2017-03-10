@@ -103,7 +103,7 @@ $result = $bdd->query('SELECT * FROM actu ORDER BY id DESC');
 
 				<footer class="row">		
 					<h3>Contact :</h3>
-						<form div="formulaire" action="formulaire_index_action.php" method="POST" onsubmit="window.open('merci.php','popup','width=300,height=150,left=200,top=200,scrollbars=1')">
+						<form div="formulaire" action="formulaire_index_action.php" method="POST">
 							<div>
 								<label for="nom">Nom :</label>
 								<input id="nom" placeholder="Dupont" type="text" name="nom">
