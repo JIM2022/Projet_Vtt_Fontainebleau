@@ -31,6 +31,8 @@ else{
 		));
 	$query ->closeCursor();	
 
-header( "Location:index.php" );
+
+header( "location:index.php" );
 }
 
+	

@@ -1,7 +1,13 @@
 #titre {
 
 	text-align: center;
-	border: 2px solid white;
+	border: 2px solid #99de68;
+	border-radius: 2px;
+	padding : 3px;
+	padding-top: 5px;
+}
+h4 {
+	font-size: 1.2em;
 }
 
 #add_actu {

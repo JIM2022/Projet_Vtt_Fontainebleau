@@ -66,11 +66,13 @@ $result = $bdd->query('SELECT * FROM actu ORDER BY id DESC');
 									while ($donnee = $result->fetch()) { ?>
 								
 								
-									<h3 id="titre"><?php echo $donnee['titre']; ?></h3>
+									<h4 id="titre"><?php echo $donnee['titre']; ?></h4>
 									<p><?php echo $donnee['actu']; ?></p>
 									<p>
 										<a href="delete_action.php?id=<?php echo $donnee['id']; ?>"><input type="submit" value="Supprimer"></a>
-										<a href="edit_formulaire.php?id=<?php echo $donnee['id']; ?>"><input type="submit" value="Editer"></a>
+										<a href="edit_formulaire.php?id=<?php echo $donnee['id']; ?>">
+										<input type="submit" value="Editer"></a>
+										
 									</p>
 								
 							<?php } ?>
@@ -101,7 +103,7 @@ $result = $bdd->query('SELECT * FROM actu ORDER BY id DESC');
 
 				<footer class="row">		
 					<h3>Contact :</h3>
-						<form div="formulaire" action="formulaire_index_action.php" method="POST">
+						<form div="formulaire" action="formulaire_index_action.php" method="POST" onsubmit="window.open('merci.php','popup','width=300,height=150,left=200,top=200,scrollbars=1')">
 							<div>
 								<label for="nom">Nom :</label>
 								<input id="nom" placeholder="Dupont" type="text" name="nom">

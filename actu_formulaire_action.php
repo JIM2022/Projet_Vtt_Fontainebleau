@@ -21,5 +21,6 @@ if (
 		$actu
 		));
 	$query ->closeCursor();
+
 }
 header ('Location: index.php');
