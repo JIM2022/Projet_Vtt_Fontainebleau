@@ -61,28 +61,20 @@ $result = $bdd->query('SELECT * FROM actu ORDER BY id DESC');
 						
 						<div id="add_actu"><a href="actu_formulaire.php"><input type="submit" value="Ajouter une actu"></a>
 						<h3>Actualités :</h3></div>
-						<table>
 						
-							<thead>
-								<tr>
-									
-								</tr>
-							</thead>
-							<tbody>
 								<?php
 									while ($donnee = $result->fetch()) { ?>
 								
-								<tr>
-									<td id="titre"><?php echo $donnee['titre']; ?></td>
-									<td><?php echo $donnee['actu']; ?></td>
-									<td>
+								
+									<h3 id="titre"><?php echo $donnee['titre']; ?></h3>
+									<p><?php echo $donnee['actu']; ?></p>
+									<p>
 										<a href="delete_action.php?id=<?php echo $donnee['id']; ?>"><input type="submit" value="Supprimer"></a>
 										<a href="edit_formulaire.php?id=<?php echo $donnee['id']; ?>"><input type="submit" value="Editer"></a>
-									</td>
-								</tr>
+									</p>
+								
 							<?php } ?>
-							</tbody>
-						</table>
+							
 															
 					</div>
 
