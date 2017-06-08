@@ -28,21 +28,11 @@
 				</div>
 				</nav>
 			</div>
-			<!--<div id="c_météo" class="col-xs-offset-1 col-xs-3 col-md-offset-4 col-md-3 col-lg-offset-1 col-lg-3">
-				<script charset='UTF-8' src='http://www.meteofrance.com/mf3-rpc-portlet/rest/vignettepartenaire/771860/type/VILLE_FRANCE/size/PAYSAGE_VIGNETTE' type='text/javascript'></script>
-			</div>-->
 		</div>
 <!-- Mobile version -->
-		<!--<div id="c_mobile">
-			<img src="img/VTT.png" id="c_logomobile" alt="logo" class=img-responsive>
-			<div id="c_météo_mobile">
-				<script  charset='UTF-8' src='http://www.meteofrance.com/mf3-rpc-portlet/rest/vignettepartenaire/771860/type/VILLE_FRANCE/size/PAYSAGE_VIGNETTE' type='text/javascript'>
-				</script>
-			</div>
-		</div>-->
 	</header>
 
-	<nav>
+			<nav>
 			  	<div class="navbar navbar-inverse navbar-fixed-top">
  					<div class="navbar-header">
    						<button type="button" class="navbar-toggle" data-toggle	="collapse" data-target=".navbar-collapse">
@@ -61,4 +51,4 @@
 				    	</ul>
   					</div>
 				</div>
-				</nav>
+			</nav>

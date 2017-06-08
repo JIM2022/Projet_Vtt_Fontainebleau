@@ -56,23 +56,23 @@ a
 	color: white;
 }
 
-/*footer
-{
-	border: 5px solid #99de68;
-	border-radius: 5px;
-	background-color: black;
-	color: white;
-	opacity: 0.7;
-	font-size: 22px;
-	width: 14.5%;
-	height: 80%;
-	position: absolute;
-	top: 10%;
-	left: 80%;
-	text-align: center;
-	
-	
-}*/
+			/*footer
+			{
+				border: 5px solid #99de68;
+				border-radius: 5px;
+				background-color: black;
+				color: white;
+				opacity: 0.7;
+				font-size: 22px;
+				width: 14.5%;
+				height: 80%;
+				position: absolute;
+				top: 10%;
+				left: 80%;
+				text-align: center;
+
+
+			}*/
 label {
 	color: white;
 	opacity: 1;
@@ -114,91 +114,6 @@ h3
 	bottom: 0;
 }
 
-/*#head
-{
-	border: 5px solid #99de68;
-	border-radius: 5px;
-	margin-top: -80px;
-	margin-left: 15px;
-	margin-right: -5px;
-	padding: 10px;
-	background-color: black;
-	color: white;
-	opacity: 0.7;
-	font-size: 20px;
-}
-
-.container_custom
-
-{*/
-	/*height: 100vh;
-	width: 100%;
-	padding-right: 0;
-	padding-left: 20;*/
-
-}
-
-/*
-.s_onglet
-{
-	border: 5px solid #99de68;
-	border-radius: 5px;
-	color: white;
-	opacity: 0.8;
-	background-color: black;
-	margin-top: 15px;
-	width: 30%;
-	position: absolute;
-	top: 37%;
-	left: 40%;
-}
-
-#s_place1
-{
-	margin-top: -250px;
-	overflow: scroll;
-	height: 250px;
-	padding-left: 20px;
-	padding-right: 20px;
-}
-
-#s_place2
-{
-	height: 250px;
-	padding-left: 15px;
-}
-
-#s_place3
-{
-	height: 250px;
-	padding-left: 15px;
-	margin-top: 275px;
-}
-
-#news
-{
-	color: white;
-	font-size: 16px;
-}
-
-.meteo
-{
-	position: absolute;
-	top: 0px;
-	left: -170px;
-}
-*/
-
-/*iframe
-{
-	position: absolute;
-	top: 375px;
-	left: 200px;
-}*/
-
-/*.email, #question {
-	width: 80%;
-}*/
 
 /*********************************** Nav-Bar ***************************************************/
 nav
@@ -269,13 +184,14 @@ nav
 
 	.meteo, iframe
 	{
-		display: none;
+		/*display: none;*/
+		width: 50%;
 	}
 
 	#head
 	{
 		width: 150%;
-		position: absolute;
+
 		top: -180px;
 		left: 350px;
 	}
@@ -322,14 +238,17 @@ nav
 {
 	#logo
 	{
-		position: absolute;
+
 		top: 30px;
 		left: 18%;
 	}
-
+	.meteo, iframe
+	{
+		/*display: none;*/
+	}
 	#head
 	{
-		position: absolute;
+
 		top: 330px;
 		left: 70%;
 		width: 300px;
