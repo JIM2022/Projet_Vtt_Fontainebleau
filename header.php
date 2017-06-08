@@ -1,8 +1,9 @@
 <!-- Bureau version -->
 	<header>
 		<div id="c_desktop" class="row">
+
 			<div class="col-xs-3">
-				<img src="img/VTT.png" id="c_logo" alt="logo" class=img-responsive >
+				<img src="img/VTT.png" id="c_logo" alt="logo" class=img-responsive>
 			</div>
 			<div class="col-xs-offset-1 col-xs-4">
 				<nav>
@@ -13,6 +14,7 @@
       						<span class="icon-bar"></span>
       						<span class="icon-bar"></span>
     					</button>
+
     					<a class="navbar-brand" href="#">Navigation</a>
   					</div>
   					<div class="navbar-collapse collapse">
@@ -26,28 +28,19 @@
 				</div>
 				</nav>
 			</div>
-			<div id="c_météo" class="col-xs-offset-1 col-xs-3 col-md-offset-4 col-md-3 col-lg-offset-1 col-lg-3">
+			<!--<div id="c_météo" class="col-xs-offset-1 col-xs-3 col-md-offset-4 col-md-3 col-lg-offset-1 col-lg-3">
 				<script charset='UTF-8' src='http://www.meteofrance.com/mf3-rpc-portlet/rest/vignettepartenaire/771860/type/VILLE_FRANCE/size/PAYSAGE_VIGNETTE' type='text/javascript'></script>
-			</div>
+			</div>-->
 		</div>
 <!-- Mobile version -->
-		<div id="c_mobile">
+		<!--<div id="c_mobile">
 			<img src="img/VTT.png" id="c_logomobile" alt="logo" class=img-responsive>
 			<div id="c_météo_mobile">
 				<script  charset='UTF-8' src='http://www.meteofrance.com/mf3-rpc-portlet/rest/vignettepartenaire/771860/type/VILLE_FRANCE/size/PAYSAGE_VIGNETTE' type='text/javascript'>
 				</script>
 			</div>
-		</div>
+		</div>-->
 	</header>
-
-
-
-
-
-
-
-
-
 
 	<nav>
 			  	<div class="navbar navbar-inverse navbar-fixed-top">

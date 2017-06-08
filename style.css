@@ -1,5 +1,5 @@
-#titre {
 
+#titre {
 	text-align: center;
 	border: 2px solid #99de68;
 	border-radius: 2px;
@@ -10,21 +10,34 @@ h4 {
 	font-size: 1.2em;
 }
 
-#add_actu {
-
+#add_actu
+{
 	text-align: center;
+	border-radius: 5px;
+	padding : 3px;
+	padding-top: 5px;
+	background-color: black;
+	color: white;
+	opacity: 0.7;
 }
 
 #logo
 {
-	height: 350px;
+/*	height: 350px;
 	width: 400px;
-	margin-top: -50px;
+	margin-top: -50px;*/
 }
 
 #head
 {
-	margin-top: -11%;
+	margin-top: -15%;
+	text-align: center;
+	border-radius: 5px;
+	padding : 3px;
+	padding-top: 5px;
+	background-color: black;
+	color: white;
+	opacity: 0.7;
 }
 
 body
@@ -43,7 +56,7 @@ a
 	color: white;
 }
 
-footer
+/*footer
 {
 	border: 5px solid #99de68;
 	border-radius: 5px;
@@ -59,7 +72,7 @@ footer
 	text-align: center;
 	
 	
-}
+}*/
 label {
 	color: white;
 	opacity: 1;
@@ -87,9 +100,21 @@ h3
 	text-decoration: underline;
 	font-size: 22px;
 }
+.box_footer
+{
+	border-radius: 5px;
+	background-color: black;
+	color: white;
+	opacity: 0.7;
+	font-size: 22px;
+	width: 105%;
+	height: 8%;
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+}
 
-
-#head
+/*#head
 {
 	border: 5px solid #99de68;
 	border-radius: 5px;
@@ -105,14 +130,15 @@ h3
 
 .container_custom
 
-{
-	height: 100vh;
+{*/
+	/*height: 100vh;
 	width: 100%;
 	padding-right: 0;
-	padding-left: 20;
+	padding-left: 20;*/
 
 }
 
+/*
 .s_onglet
 {
 	border: 5px solid #99de68;
@@ -161,20 +187,20 @@ h3
 	top: 0px;
 	left: -170px;
 }
+*/
 
-iframe
+/*iframe
 {
 	position: absolute;
 	top: 375px;
 	left: 200px;
-}
+}*/
 
-.email, #question
-{
+/*.email, #question {
 	width: 80%;
-}
+}*/
 
-
+/*********************************** Nav-Bar ***************************************************/
 nav
 {
 	background-color: black;
@@ -209,7 +235,7 @@ nav
 	  transform: rotate(-45deg);
 }
 
-
+/*********************************** RESPONSIVE ***************************************************/
 
 @media screen and (min-width: 992px) and (max-width: 1200px)
 {
@@ -236,8 +262,6 @@ nav
 		left: 42.5%;
 	}
 }
-
-
 
 
 @media screen and (min-width: 768px) and (max-width: 992px)
@@ -335,6 +359,6 @@ nav
 		overflow: auto;
 	}
 
-
-
 }
+
+
