@@ -1,41 +1,64 @@
 
-body {
-
-	font-size: 2em;
-	font-family: Josefin Sans;
-	color: white;
-	background: url(img/backgroundpage4.jpg) no-repeat center center fixed;
-	background-size: cover;
-
+body
+{
+font-size: 2em;
+font-family: Josefin Sans;
+color: white;
+background: url(../img/backgroundpage4.jpg) no-repeat center center fixed;
+background-size: cover;
 
 }
+a
+{
+	color: white;
+}
+ul
+{
 
-.collaspe {
+	list-style-type: none;
+}
+
+h3
+{
+
+	Font-Weight: Bold;
+}
+input
+{
+	margin-bottom: 30px;
+	color: black;
+}
+
+textarea
+{
+
+	border-radius: 5px;
+}
+
+.collaspe
+{
 	font-size: 1em;
 }
 
-a {
-	color: white;
-}
 
 
+/********************************** Nav-Bar **************************************************/
 #c_navbar {
 
 	background: rgba(0, 0, 0, 0.8);
 }
 
-#c_navbar li {
+#c_navbar li
+{
 
 	list-style: none;
 	display: inline;
 	padding: 10px;
 	margin: 0;
 	text-align:center;
-
-
 }
-
-#c_navbar ul{
+#c_navbar ul
+{
 
 	border: 5px solid #99de68;
 	border-radius: 5px;
@@ -45,15 +68,16 @@ a {
 
 }
 
-#c_météo {
+#c_météo
+{
 
 	margin-top: 90px;
 }
 
 
 
-#c_tarif-container {
-
+#c_tarif-container
+{
 	border: 5px solid #99de68;
 	border-radius: 5px;
 	background: rgba(0, 0, 0, 0.8);
@@ -62,23 +86,17 @@ a {
 	color: white;
 }
 
-#c_infoloc {
+#c_infoloc
+{
 
 	text-align: justify;
 	margin-top: 20px;
 }
 
-ul {
 
-	list-style-type: none;
-}
 
-h3 {
-
-	Font-Weight: Bold;
-}
-
-#c_liencontainer {
+#c_liencontainer
+{
 
 	border: 5px solid #99de68;
 	border-radius: 5px;
@@ -87,38 +105,33 @@ h3 {
 
 
 
-#c_lien {
+#c_lien
+{
 
 	text-align: center;
 	margin: 10px;
 }
 
 
-#c_img3 {
+#c_img3
+{
 
 	margin-top: 50px;
 
 }
 
-#c_copyright {
+#c_copyright
+{
 
 	padding: 30px;
 }
-#c_copyright p {
+#c_copyright p
+{
 
 	text-align: center;
 	color : black;
 }
 
-input {
-
-	color: black;
-}
-
-textarea {
-
-	border-radius: 5px;
-}
 
 #c_mobile {
 
@@ -140,33 +153,39 @@ textarea {
 @media screen and (max-width: 768px) {
 
 
-	#c_desktop  {
+	#c_desktop
+	{
 
 		display: none;
 	}
 
-	#c_tarif {
+	#c_tarif
+	{
 
 		display: none;
 	}
 
-	#footer_desktop {
+	#footer_desktop
+	{
 
 		display: none;
 	}
 
 
-	#c_mobile {
+	#c_mobile
+	{
 
 		display: block;
 	}
 	
-	#c_météo_mobile {
+	#c_météo_mobile
+	{
 
 		text-align: center;
 	}
 
-	#c_tarif_mobile {
+	#c_tarif_mobile
+	{
 		
 		display: block;
 		border: 5px solid #99de68;
@@ -175,14 +194,16 @@ textarea {
 		margin : 10px;
 	}
 	
-	#c_tarif_mobile p {
+	#c_tarif_mobile p
+	{
 
 		font-size: 0.7em;
 		text-align: justify;
 		margin: 10px;
 	}
 
-	#c_footer_mobile {
+	#c_footer_mobile
+	{
 
 		display: block;
 		border: 5px solid #99de68;
@@ -192,13 +213,15 @@ textarea {
 
 	}
 
-	#c_footer_mobile h4 {
+	#c_footer_mobile h4
+	{
 		text-align: center;
 		font-size: 0.8em;
 		margin: 10px;
 	}
 	
-	#c_formualire h4 {
+	#c_formualire h4
+	{
 		text-decoration: underline;
 	}
 
@@ -208,48 +231,53 @@ textarea {
 		width: 300px;
 	}
 
-	input {
-		margin-bottom: 30px;
-	}
 }
 
 /*Tablette portrait*/
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 992px)
+{
 
-	#c_logomobile {
+	#c_logomobile
+	{
 
 		margin-right: auto;
 		margin-left: auto;
 		width : 700px;
 	}
  	
- 	#c_desktop  {
+ 	#c_desktop
+	{
 
 		display: none;
 	}
 
-	#c_tarif {
+	#c_tarif
+	{
 
 		display: none;
 	}
 
-	#footer_desktop {
+	#footer_desktop
+	{
 
 		display: none;
 	}
 
 
-	#c_mobile {
+	#c_mobile
+	{
 
 		display: block;
 	}
 	
-	#c_météo_mobile {
+	#c_météo_mobile
+	{
 
 		text-align: center;
 	}
 
-	#c_tarif_mobile {
+	#c_tarif_mobile
+	{
 		
 		display: block;
 		border: 5px solid #99de68;
@@ -258,14 +286,16 @@ textarea {
 		margin : 10px;
 	}
 	
-	#c_tarif_mobile p {
+	#c_tarif_mobile p
+	{
 
 		font-size: 0.7em;
 		text-align: justify;
 		margin: 10px;
 	}
 
-	#c_footer_mobile {
+	#c_footer_mobile
+	{
 
 		display: block;
 		border: 5px solid #99de68;
