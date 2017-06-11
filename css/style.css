@@ -1,0 +1,240 @@
+body
+{
+	font-size: 22px;
+	font-family: Josefin Sans;
+}
+h4
+{
+	font-size: 1.2em;
+}
+a
+{
+	color: white;
+}
+label
+{
+	color: white;
+	opacity: 1;
+}
+
+form
+{
+	color: black;
+}
+input
+{
+	margin: 10px;
+	color: black;
+}
+textarea
+{
+	margin: 10px;
+}
+h3
+{
+	text-decoration: underline;
+	font-size: 22px;
+}
+#titre
+{
+	text-align: center;
+	border: 2px solid #99de68;
+	border-radius: 2px;
+	padding : 3px;
+	padding-top: 5px;
+}
+#add_actu
+{
+	text-align: center;
+	border-radius: 5px;
+	padding : 3px;
+	padding-top: 5px;
+	background-color: black;
+	color: white;
+	opacity: 0.7;
+}
+#head
+{
+	margin-top: -15%;
+	text-align: center;
+	border-radius: 5px;
+	padding : 3px;
+	padding-top: 5px;
+	background-color: black;
+	color: white;
+	opacity: 0.7;
+}
+#index
+{
+	background: url(../img/VTT-2.jpg);
+	background-size: cover;
+}
+#contact
+{
+	background: url(../img/VTT-2.jpg);
+	background-size: cover;
+}
+#c_logo
+{
+	margin-top: 30%;
+	width:300px;
+	height: 200px;
+}
+
+			/*footer
+			{
+				border: 5px solid #99de68;
+				border-radius: 5px;
+				background-color: black;
+				color: white;
+				opacity: 0.7;
+				font-size: 22px;
+				width: 14.5%;
+				height: 80%;
+				position: absolute;
+				top: 10%;
+				left: 80%;
+				text-align: center;
+
+
+			}*/
+
+.box_footer
+{
+	border-radius: 5px;
+	background-color: black;
+	color: white;
+	opacity: 0.7;
+	font-size: 22px;
+	width: 105%;
+	height: 8%;
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+}
+.btn_form
+{
+
+	margin-bottom: 20%;
+}
+.title_form, h3
+{
+	text-align: center;
+	color:white;
+	font-size: 50px;
+}
+
+/*********************************** Nav-Bar ***************************************************/
+nav
+{
+	font-size: 1em;
+	font-family: Josefin Sans;
+}
+#c_navbar li {
+	list-style: none;
+	display: inline;
+	padding: 10px;
+	margin: 0;
+	text-align:center;
+}
+#c_navbar ul{
+	background-color: rgba(0, 0, 0, 0.7);
+	border: 5px solid #99de68;
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 130px;
+	text-align: center;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+#c_mobile {
+
+	display: none;
+}
+
+
+/*********************************** RESPONSIVE ***************************************************/
+
+@media screen and (min-width: 992px) and (max-width: 1200px)
+{
+	#head
+	{
+		width: 100%;
+	}
+	#c_mobile {
+		display: block;
+	}
+	#c_desktop {
+		display: none;
+	}
+	#c_logo
+	{
+		margin-top: 15%;
+		width:225px;
+		height: 150px;
+	}
+
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px)
+{
+	#head
+	{
+		width: 80%;
+	}
+	.meteo, iframe
+	{
+		width: 80%;
+	}
+
+	#c_mobile
+	{
+		display: block;
+	}
+	#c_desktop
+	{
+		display: none;
+	}
+	#c_logo
+	{
+		margin-top: 15%;
+		width:225px;
+		height: 150px;
+	}
+
+}
+
+@media screen and (max-width: 768px)
+{
+	body
+	{
+		height: 100%;
+	}
+
+	#head
+	{
+		margin-top: 10%;
+		width: 80%;
+	}
+	.meteo, iframe
+	{
+		display: none;
+	}
+	#c_mobile {
+		display: block;
+	}
+	#c_desktop {
+		display: none;
+	}
+	#c_logo
+	{
+		margin-top: 15%;
+		width:225px;
+		height: 150px;
+	}
+
+}
+
+

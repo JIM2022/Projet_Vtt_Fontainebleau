@@ -2,51 +2,37 @@
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
-
+		<title>Balades familiales en Vtt</title>
         <meta name="viewport" content="initial-scale=1">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-
         <!-- Bootstrap -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <!-- Call CSS -->
-
         <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-
         <link rel="stylesheet" type="text/css" href="css/style_pages.css"/>
-        <title>Balades familiales en Vtt</title>
+
     </head>
 
     <div id="page_balades">
         <body>
-
-
-
             <div class="container-fluid">
-                <?php include 'header.php';
-                ?>
-
-
+                <?php include 'header.php'; ?>
                 <div class="title">
-
                     <marquee direction="left" behavior="scroll" scrollamount="6" > Balades familiales en Vtt au sein du Domaine Forestier de Fontainebleau.</marquee>
                 </div>
-
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-offset-1 col-lg-4 box">
                             <div class="img">
-
-                                <img width="100px" height="100px" src="img/vtt_familles_1.jpg" alt="arbonne">  
+                                <img width="100" height="100" src="img/vtt_familles_1.jpg" alt="arbonne">
                             </div>
                             <a href="img/Plan_promenade_arbonne.pdf" target="blank" title="Cliquez pour découvrir la carte !">
                                 <h4>Exploration du Massif des 3 Pignons <img src="img/infobulle.png" alt="infobulle_icone" width="40px" height="40px"></h4></a>
-
                             <p><span> Circuit au départ de Arbonne la Foret.</span><br>
                                 <span> Parcours de 3,2 kilomètres</span></p>
                             <p>Descriptif: Exploration en famille du massif forestier des 3 pignons. <br/>
                                 Découvert des paysages "méditerranéens" ce cette partie de la foret de Fontainebleau.</p><br/>
-
                             <table>
                                 <tbody>
                                     <tr>
@@ -56,8 +42,7 @@
                                         <td>
                                             <span>Accès Libre toute l'année</span>    
                                         </td>
-                                    </tr> 
-
+                                    </tr>
                                     <tr>
                                         <td class="picto">
                                             <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-pourqui.gif">
@@ -66,8 +51,7 @@
                                             <span>Pour Qui ?</span>
                                             " Débutants.     
                                         </td>
-                                    </tr> 
-
+                                    </tr>
                                     <tr>
                                         <td class="picto">
                                             <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-handicap.gif">
@@ -76,8 +60,7 @@
                                             <span>Accessibilité</span>
                                             " Accessible aux personnes à mobilité réduite.               
                                         </td>
-                                    </tr> 
-
+                                    </tr>
                                     <tr>
                                         <td class="picto">
                                             <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-distances.gif">
@@ -86,8 +69,7 @@
                                             <span>Longueur</span>                  
                                             " 3,2 Kilomètres               
                                         </td>
-                                    </tr> 
-
+                                    </tr>
                                     <tr>
                                         <td class="picto">
                                             <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-duree.gif">
@@ -96,8 +78,7 @@
                                             <span>Durée</span>                  
                                             "     boucle : 1 Heure et 30 minutes
                                         </td>
-                                    </tr> 
-
+                                    </tr>
                                     <tr>
                                         <td class="picto">
                                             <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-balisage.gif">
@@ -106,8 +87,7 @@
                                             <span>Balisage</span>                  
                                             " Jaune                
                                         </td>
-                                    </tr> 
-
+                                    </tr>
                                     <tr>
                                         <td class="picto">
                                             <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-adresse.gif">
@@ -122,13 +102,9 @@
                                 </tbody> 
                             </table> 
                         </div>
-
-
                         <div class="col-lg-offset-2 col-lg-4 box">
                             <div class="img">
-
-
-                                <img width="100px" height="100px" src="img/vtt_familles_2.jpg" alt="sucremont">  
+                                <img width="100" height="100" src="img/vtt_familles_2.jpg" alt="sucremont">
                                 <a href="img/Promenade_Sucremont.pdf" target="blank" title="Cliquez pour découvrir la carte !">
                                     <h4>Promenade de Sucremont <img src="img/infobulle.png" alt="infobulle_icone" width="40px" height="40px"></h4></a>
                             </div>
@@ -137,8 +113,6 @@
                             <p>Descriptif: Cette balade, idéale pour la détente en famille, vous emmène <br/>
                                 à la découverte des rochers de la forêt des Trois-Pignons
                                 et des peuplements forestiers.</p><br/>
-
-
                             <table>
                                 <tbody>
                                     <tr>
@@ -148,8 +122,7 @@
                                         <td>
                                             <span>Accès Libre toute l'année</span>    
                                         </td>
-                                    </tr> 
-
+                                    </tr>
                                     <tr>
                                         <td class="picto">
                                             <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-pourqui.gif">
@@ -158,8 +131,7 @@
                                             <span>Pour Qui ?</span>
                                             " Débutants.     
                                         </td>
-                                    </tr> 
-
+                                    </tr>
                                     <tr>
                                         <td class="picto">
                                             <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-handicap.gif">
@@ -168,8 +140,7 @@
                                             <span>Accessibilité</span>
                                             " Accessible aux personnes à mobilité réduite.               
                                         </td>
-                                    </tr> 
-
+                                    </tr>
                                     <tr>
                                         <td class="picto">
                                             <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-distances.gif">
@@ -178,8 +149,7 @@
                                             <span>Longueur</span>                  
                                             " 3 Kilomètres               
                                         </td>
-                                    </tr> 
-
+                                    </tr>
                                     <tr>
                                         <td class="picto">
                                             <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-duree.gif">
@@ -188,8 +158,7 @@
                                             <span>Durée</span>                  
                                             "     boucle : 1 Heure et 30 minutes
                                         </td>
-                                    </tr> 
-
+                                    </tr>
                                     <tr>
                                         <td class="picto">
                                             <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-balisage.gif">
@@ -198,8 +167,7 @@
                                             <span>Balisage</span>                  
                                             " Jaune                
                                         </td>
-                                    </tr> 
-
+                                    </tr>
                                     <tr>
                                         <td class="picto">
                                             <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-adresse.gif">
@@ -215,21 +183,19 @@
                             </table> 
                         </div>
                     </div>
-
                     <div class="row">
                         <div class="col-lg-offset-1 col-lg-4 box">
                             <div class="img">
-
-
                                 <img width="100px" height="100px" src="img/vtt_familles_3.jpg" alt="archers">  
-                                <a href="img/plan%20archers.pdf" target="blank" title="Cliquez pour découvrir la carte !">
-                                    <h4>La Gorge aux Archers <img src="img/infobulle.png" alt="infobulle_icone" width="40px" height="40px"></h4></a>
+                                	<a href="img/plan%20archers.pdf" target="blank" title="Cliquez pour découvrir la carte !">
+										<h4>La Gorge aux Archers
+											<img src="img/infobulle.png" alt="infobulle_icone" width="40" height="40">
+										</h4>
+									</a>
                             </div>
                             <p><span> Circuit au départ de Arbonne la Foret.</span><br/>
                                 <span> Parcours de 5,5 kilomètres</span></p>
                             <p>Descriptif: A la frontière de la forêt des Trois-Pignons<br/> et de Fontainebleau,vous pourrez apprécier la variété des paysages.</p><br/>
-
-
                             <table>
                                 <tbody>
                                     <tr>
@@ -239,8 +205,7 @@
                                         <td>
                                             <span>Accès Libre toute l'année</span>    
                                         </td>
-                                    </tr> 
-
+                                    </tr>
                                     <tr>
                                         <td class="picto">
                                             <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-pourqui.gif">
@@ -250,8 +215,7 @@
                                             " Débutants.Prudence, il est possible que vous rencontriez <br/>
                                             des cavaliers sur certains tronçons     
                                         </td>
-                                    </tr> 
-
+                                    </tr>
                                     <tr>
                                         <td class="picto">
                                             <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-handicap.gif">
@@ -260,8 +224,7 @@
                                             <span>Accessibilité</span>
                                             " Accessible aux personnes à mobilité réduite au début du parcours.               
                                         </td>
-                                    </tr> 
-
+                                    </tr>
                                     <tr>
                                         <td class="picto">
                                             <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-distances.gif">
@@ -270,8 +233,7 @@
                                             <span>Longueur</span>                  
                                             " 5,5 Kilomètres               
                                         </td>
-                                    </tr> 
-
+                                    </tr>
                                     <tr>
                                         <td class="picto">
                                             <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-duree.gif">
@@ -280,8 +242,7 @@
                                             <span>Durée</span>                  
                                             "     boucle : 2 Heures
                                         </td>
-                                    </tr> 
-
+                                    </tr>
                                     <tr>
                                         <td class="picto">
                                             <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-balisage.gif">
@@ -290,8 +251,7 @@
                                             <span>Balisage</span>                  
                                             " Jaune                
                                         </td>
-                                    </tr> 
-
+                                    </tr>
                                     <tr>
                                         <td class="picto">
                                             <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-adresse.gif">
@@ -306,24 +266,22 @@
                                 </tbody> 
                             </table> 
                         </div>
-
-
                         <div class="col-lg-offset-2 col-lg-4 box">
-
                             <div class="img">
-
-
-                                <img width="100px" height="100px" src="img/vtt_familles_4.JPG" alt="franchard">  
+                                <img width="100" height="100" src="img/vtt_familles_4.JPG" alt="franchard">
                                 <a href="img/plan_gorges_de_Franchard.pdf" target="blank" title="Cliquez pour découvrir la carte !">
-                                    <h4>Promenade des Gorges de Franchard <img src="img/infobulle.png" alt="infobulle_icone" width="40px" height="40px"></h4></a>
+                                    <h4>Promenade des Gorges de Franchard
+										<img src="img/infobulle.png" alt="infobulle_icone" width="40" height="40">
+									</h4>
+								</a>
                             </div>
                             <p><span> Circuit Familles aux Gorges de Franchard</span><br/>
                                 <span> Parcours de 3 kilomètres</span></p>
                             <p>Descriptif: Du chêne Georges Sand à l'Oeil-des-Nations, un circuit à la rencontre <br>
                                 des paysages caractéristiques de la forêt de Fontainebleau : <br/>
-                                paysage de landes et de chaos, de mares mystérieuses <br/>           et de hautes chênaies.</p>
-
-
+                                paysage de landes et de chaos, de mares mystérieuses <br/>
+								et de hautes chênaies.
+							</p>
                             <table>
                                 <tbody>
                                     <tr>
@@ -333,8 +291,7 @@
                                         <td>
                                             <span>Accès Libre toute l'année</span>    
                                         </td>
-                                    </tr> 
-
+                                    </tr>
                                     <tr>
                                         <td class="picto">
                                             <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-pourqui.gif">
@@ -343,8 +300,7 @@
                                             <span>Pour Qui ?</span>
                                             " Débutants. Circuit très touristique.     
                                         </td>
-                                    </tr> 
-
+                                    </tr>
                                     <tr>
                                         <td class="picto">
                                             <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-handicap.gif">
@@ -353,8 +309,7 @@
                                             <span>Accessibilité</span>
                                             " Accessible aux personnes à mobilité réduite.               
                                         </td>
-                                    </tr> 
-
+                                    </tr>
                                     <tr>
                                         <td class="picto">
                                             <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-distances.gif">
@@ -363,8 +318,7 @@
                                             <span>Longueur</span>                  
                                             " 2,5 Kilomètres               
                                         </td>
-                                    </tr> 
-
+                                    </tr>
                                     <tr>
                                         <td class="picto">
                                             <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-duree.gif">
@@ -373,8 +327,7 @@
                                             <span>Durée</span>                  
                                             "     boucle : 1 Heure et 10 minutes
                                         </td>
-                                    </tr> 
-
+                                    </tr>
                                     <tr>
                                         <td class="picto">
                                             <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-balisage.gif">
@@ -383,8 +336,7 @@
                                             <span>Balisage</span>                  
                                             " Jaune                
                                         </td>
-                                    </tr> 
-
+                                    </tr>
                                     <tr>
                                         <td class="picto">
                                             <img alt="" src="http://www.onf.fr/@@/onf.skin.fo.common.img/icone-adresse.gif">
@@ -401,13 +353,9 @@
                         </div> 
                     </div>
                 </div>
-            </div>
-
-            <script
-                    src="https://code.jquery.com/jquery-3.1.1.slim.js"
-                    integrity="sha256-5i/mQ300M779N2OVDrl16lbohwXNUdzL/R2aVUXyXWA="
-                    crossorigin="anonymous"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>    
+				<script type="text/javascript" src="js/java.js"></script>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         </body>
     </div>
 </html>
